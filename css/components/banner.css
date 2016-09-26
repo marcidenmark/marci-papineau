@@ -1,0 +1,17 @@
+.banner {
+  color: white;
+  text-align: left;
+  height: 85vh;
+  background-size: cover !important;
+  padding-left: 26px;
+}
+
+.banner-content h1 {
+  margin-top: 0px;
+  font-size: 60px;
+  padding-top: 250px;
+
+}
+.banner-content p {
+  font-size: 28px;f
+}

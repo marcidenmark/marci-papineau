@@ -1,0 +1,10 @@
+.wrapper-black {
+  background-color: black;
+  padding: 50px 0;
+}
+
+.wrapper-black h1 {
+  margin-top: 0px;
+  margin-bottom: 38px;
+  color: #f44336;
+}

@@ -1,0 +1,33 @@
+.button-main {
+  background-color: #EF233C;
+  box-shadow: 1px 1px 5px 0px rgba(169,169,169,0.50);
+  border-radius: 11px;
+  color: white;
+  padding: 8px 22px;
+  // margin: 10px;
+  text-align: center;
+  // margin-top: 12px;
+  width: 153px;
+  font-size: 14px;
+  font-family: 'Crete Round', serif;
+  letter-spacing: 2px;
+}
+
+.button-main a {
+  color: white;
+}
+
+.button-grey {
+  background-color: $medium-grey;
+  box-shadow: 1px 1px 5px 0px rgba(169,169,169,0.50);
+  border-radius: 11px;
+  color: black;
+  padding: 8px 22px;
+  margin-top: 10px;
+  margin-left: 0;
+  text-align: center;
+}
+
+.round-button {
+
+}

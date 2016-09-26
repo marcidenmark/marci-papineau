@@ -1,0 +1,26 @@
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px 60px 20px;
+  background-color: white;
+}
+
+.test-padding {
+  padding: 0px 20px;
+}
+
+.testimonials p {
+  font-family: 'Crete Round', serif;
+  font-size: 15px;
+  line-height: 15px;
+  padding-left: 10px
+  padding-right: 10px;
+  font-style: italic;
+  line-height: 25px;
+  color: grey;
+}
+
+.testimonials h1 {
+  margin-bottom: 60px;
+
+}

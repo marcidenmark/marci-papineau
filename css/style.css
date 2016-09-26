@@ -1,0 +1,29 @@
+/*@import url("components/avatar.css");
+*/@import url("components/banner.css");
+@import url("components/footer.css");
+@import url("components/card.css");
+/*@import url("components/feature.css");
+*/@import url("components/navbar.css");
+/*@import url("components/button.css");
+*/@import url("components/testimonials.css");
+@import url("components/samples.css");
+@import url("components/skills.css");
+
+
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+}
+h1 {
+  font-size: 43px;
+  color: #oa1612;
+}
+
+p {
+  font-family: 'Crete Round', serif;
+}
+
+
+
