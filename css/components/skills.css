@@ -1,13 +1,19 @@
 .skill-wrapper {
-  background-color: #C5C1C0;
-  padding: 50px 0;
+/*  background-color: #C5C1C0;
+*/  padding: 50px 0;
 }
 
  .skill-wrapper h1 {
     margin-bottom: 60px;
   }
 
-
+.aboutme p {
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 45px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
 
 
 .skillBar {
