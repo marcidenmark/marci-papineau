@@ -1,6 +1,6 @@
-.navbar {
-  display: flex;
-  justify-content: space-around;
+ .navbar {
+/*  display: flex;
+*/  /*justify-content: space-around;*/
   background: black;
   color: white;
   transition: all 0.3s ease;
@@ -17,8 +17,8 @@
 
 .navbar-right {
   display: flex;
-  justify-content: space-around;
-  padding-left: 500px;
+/*  justify-content: space-around;
+*/  /*padding-left: 500px;*/
   font-size: 10px;
   letter-spacing: 2px;
   line-height: 18px;
@@ -26,9 +26,9 @@
   border-right: 2px solid rgba(0,0,0,0.14);
 }
 
-.navbar-left {
+/*.navbar-left {
   padding-right: 50px;
-}
+}*/
 
 
 .navbar h4{
