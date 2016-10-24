@@ -43,11 +43,16 @@ a:active {
   text-decoration: none;
 }
 
+.color {
+  color: #f44336;
 
+}
 
 .container {
   margin: 0 auto;
 }
+
+
 
 @media (min-width: 768px) {
   .container {
