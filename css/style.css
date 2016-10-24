@@ -23,7 +23,10 @@ p {
   font-family: 'Crete Round', serif;
 }
 
-
+a {
+  color: #f44336;
+  text-decoration: none;
+}
 
 .container {
   margin: 0 auto;
