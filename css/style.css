@@ -34,18 +34,17 @@ a:visited {
 }
 
 a:hover {
-  color: black;
+  color: grey;
   text-decoration: none;
 }
 
 a:active {
-  color: #f44336;
+  color: #grey;
   text-decoration: none;
 }
 
 .color {
   color: #f44336;
-
 }
 
 .container {

@@ -1,5 +1,7 @@
 
 .footer {
+  display: flex;
+  justify-content: flex-start;
   padding: 30px 50px;
   background-color: black;
   width: 100%;
