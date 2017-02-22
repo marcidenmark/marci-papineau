@@ -1,0 +1,14 @@
+
+
+nav .navbar .navbar-nav .navbar-item a {
+    color: #000302;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+    background-color: transparent;
+    -webkit-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+    display: table;
+    padding: 0 40px;
+    text-align: center;
+    height: 83px;
+}
