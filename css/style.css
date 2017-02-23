@@ -2,13 +2,10 @@
 @import url("components/footer.css");
 @import url("components/card.css");
 @import url("components/navbar.css");
-/*@import url("components/button.css");
-*/@import url("components/testimonials.css");
+/*@import url("components/button.css"); */
+@import url("components/testimonials.css");
 @import url("components/samples.css");
 @import url("components/skills.css");
-
-
-
 
 h1, h2, h3, h4, h5 {
   font-family: 'Roboto Condensed', sans-serif;
@@ -16,33 +13,35 @@ h1, h2, h3, h4, h5 {
 }
 h1 {
   font-size: 43px;
-  color: #oa1612;
+  color: #282A2B;
 }
 
 p {
   font-family: 'Crete Round', serif;
 }
-
+/*a:link   a:visited   a:hover   a:active */
 a {
-  color: #f44336;
-  text-decoration: none;
+text-decoration: none;
 }
 
 a:visited {
-  color: #f44336;
-  text-decoration: none;
+/*  color: #f44336;
+*/  text-decoration: none;
 }
 
 a:hover {
-  color: grey;
-  text-decoration: none;
+/*  color: #ffffff;
+*/  text-decoration: none;
 }
 
 a:active {
-  color: #grey;
-  text-decoration: none;
+/*  color: white;
+*/  text-decoration: none;
 }
 
+.white {
+  color: #ffffff;
+}
 .color {
   color: #f44336;
 }
