@@ -21,7 +21,8 @@ p {
 }
 /*a:link   a:visited   a:hover   a:active */
 a {
-text-decoration: none;
+  color: #f44336;
+  text-decoration: none;
 }
 
 a:visited {
