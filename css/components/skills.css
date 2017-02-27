@@ -42,7 +42,12 @@
   float: left;
   background: #f44336;
   background: #f44336;
+  -webkit-animation: slideIn 2s;
+  -moz-animation: slideIn 2s;
+  -o-animation: slideIn 2s;
+  animation: slideIn 2s;
 }
+
 
 /* Allowed values for the css skill bars */
 .value-00  { width: 0;    }
@@ -82,9 +87,10 @@
   100% { width: normal; }
 }
 
-.skillBarValue {
+/*.skillBarValue {
   -webkit-animation: slideIn 2s;
   -moz-animation: slideIn 2s;
   -o-animation: slideIn 2s;
   animation: slideIn 2s;
 }
+*/
