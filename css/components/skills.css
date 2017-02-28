@@ -38,7 +38,8 @@
   border-radius:0px;
 }
 .skillBarValue {
-  height: .66em;
+/*  width: 50%;
+*/  height: .66em;
   float: left;
   background: #f44336;
   background: #f44336;

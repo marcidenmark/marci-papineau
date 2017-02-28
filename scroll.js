@@ -10,7 +10,7 @@ $(document).ready(function() {
 // * is all ellements
 
     $(function() {
-        var $animation_elements = $('.skillBarContainer');
+        var $animation_elements = $('.skillBarContainer > *');
 
         var $window = $(window);
         // $animation_elements.css({ '-webkit-opacity': '0', '-webkit-transform': 'scaleX(.1)' });
@@ -19,6 +19,7 @@ $(document).ready(function() {
             var window_top_position = $window.scrollTop();
             var window_bottom_position = (window_top_position + window_height);
 
+            console.log(window_height)
 
             $.each($animation_elements, function() {
                 var element_height = $(this).outerHeight();
@@ -26,15 +27,27 @@ $(document).ready(function() {
                 var element_bottom_position = (element_top_position + element_height);
 
                 if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
-                        console.log("second hello")
 
-                        //$(this).parent().removeClass('skillBarValue');
+
+
+
+                        $(this).addClass('skillBarValue');
                     };
 
             });
+            console.log("--")
 
         });
 
     });
 
 });
+
+
+
+//console.log("second hello")
+                        //console.log("window_top_position: " + window_top_position)
+                        //console.log("element_bottom_position: " + element_bottom_position)
+                        // console.log("first condition: " + (element_bottom_position >= window_top_position))
+                        // console.log("element_top_position: " + element_top_position)
+                        // console.log("window_bottom_position: " + window_bottom_position)
