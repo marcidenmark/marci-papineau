@@ -1,54 +1,40 @@
-
- // from le W.
+// from le W.
 $(document).ready(function() {
-  // the DOM is now ready, you can traverse it,
-  // and register events with on().
+
+  console.log("hello")
+    // the DOM is now ready, you can traverse it,
+    // and register events with on().
+    // the DOM is now ready, you can traverse it,
+    // and register events with on().
+
+// * is all ellements
 
     $(function() {
+        var $animation_elements = $('.skillBarContainer');
 
-      var $window           = $(window),
-          win_height_padded = $window.height() * 1.1,
-          isTouch           = Modernizr.touch;
+        var $window = $(window);
+        // $animation_elements.css({ '-webkit-opacity': '0', '-webkit-transform': 'scaleX(.1)' });
+        $window.on('scroll', function() {
+            var window_height = $window.height();
+            var window_top_position = $window.scrollTop();
+            var window_bottom_position = (window_top_position + window_height);
 
-      if (isTouch) { $('.revealOnScroll').addClass('animated'); }
 
-      $window.on('scroll', revealOnScroll);
+            $.each($animation_elements, function() {
+                var element_height = $(this).outerHeight();
+                var element_top_position = $(this).offset().top;
+                var element_bottom_position = (element_top_position + element_height);
 
-      function revealOnScroll() {
-        var scrolled = $window.scrollTop(),
-            win_height_padded = $window.height() * 1.1;
+                if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+                        console.log("second hello")
 
-        // Showed...
-        $(".revealOnScroll:not(.animated)").each(function () {
-          var $this     = $(this),
-              offsetTop = $this.offset().top;
+                        //$(this).parent().removeClass('skillBarValue');
+                    };
 
-          if (scrolled + win_height_padded > offsetTop) {
-            if ($this.data('timeout')) {
-              window.setTimeout(function(){
-                $this.addClass('animated ' + $this.data('animation'));
-              }, parseInt($this.data('timeout'),10));
-            } else {
-              $this.addClass('animated ' + $this.data('animation'));
-            }
-          }
+            });
+
         });
-        // Hidden...
-       $(".revealOnScroll.animated").each(function (index) {
-          var $this     = $(this),
-              offsetTop = $this.offset().top;
-          if (scrolled + win_height_padded < offsetTop) {
-            $(this).removeClass('animated fadeInUp flipInX lightSpeedIn')
-          }
-        });
-      }
 
-      revealOnScroll();
     });
 
-
-
- // the DOM is now ready, you can traverse it,
- // and register events with on().
 });
-
