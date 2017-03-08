@@ -1,7 +1,7 @@
 // from le W.
 $(document).ready(function() {
 
-  console.log("hello")
+  // console.log("hello")
     // the DOM is now ready, you can traverse it,
     // and register events with on().
     // the DOM is now ready, you can traverse it,
@@ -35,7 +35,7 @@ $(document).ready(function() {
                     };
 
             });
-            console.log("--")
+            // console.log("--")
 
         });
 

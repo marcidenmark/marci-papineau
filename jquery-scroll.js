@@ -1,4 +1,3 @@
 $(document).ready(function) {
-  $('div.class').addClass('classname');
-
+  $('skillBarContainer').addClass('skillBarValue');
 });
