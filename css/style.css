@@ -32,6 +32,7 @@ a:visited {
 
 a:hover {
   color: #f8877f;
+  height: 100px;
   text-decoration: none;
 }
 

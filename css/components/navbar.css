@@ -23,12 +23,13 @@
   }
 /*a:link   a:visited   a:hover   a:active */
 .navbar a {
-  padding: 10px 10px;
+  padding: 10px 12px;
 /*  height: 88px;
 */}
 
 .navbar a:hover{
-  background-color: #383838;
+/*  background-color: #383838;
+*/  background-size: inherit;
   text-decoration: none;
   -webkit-transition: background-color .25s ease-in-out;
   transition: background-color .25s ease-in-out;
