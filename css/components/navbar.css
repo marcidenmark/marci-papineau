@@ -4,7 +4,7 @@
   background: black;
   color: #f44336;
   line-height: 20px;
-  margin-bottom: 0;
+  padding-bottom: 20px;
   align-content: space-around;
   position: absolute;
     top: 0;
@@ -23,9 +23,9 @@
   }
 /*a:link   a:visited   a:hover   a:active */
 .navbar a {
-  padding: 0px 10px;
-  height: 88px;
-}
+  padding: 10px 10px;
+/*  height: 88px;
+*/}
 
 .navbar a:hover{
   background-color: #383838;
