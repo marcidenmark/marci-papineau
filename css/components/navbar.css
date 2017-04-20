@@ -3,6 +3,7 @@
 */  /*justify-content: space-around;*/
   background: black;
   color: #f44336;
+
   line-height: 20px;
   padding-bottom: 20px;
   align-content: space-around;
@@ -22,14 +23,23 @@
   line-height: 18px;
   }
 /*a:link   a:visited   a:hover   a:active */
+.menu-verticle-lines {
+  border-left: 1px;
+  border-right: 1px;
+  border-color: #f44336;
+}
+
 .navbar a {
   padding: 10px 12px;
 /*  height: 88px;
 */}
 
-.navbar a:hover{
-/*  background-color: #383838;
-*/  background-size: inherit;
+.navbar a:visited {
+  text-decoration: none;
+}
+.navbar-right a:hover{
+  background-color: #383838;
+  line-height: 100px;
   text-decoration: none;
   -webkit-transition: background-color .25s ease-in-out;
   transition: background-color .25s ease-in-out;
