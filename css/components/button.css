@@ -4,9 +4,8 @@
   border-radius: 11px;
   color: white;
   padding: 8px 22px;
-  // margin: 10px;
+  margin: 10px;
   text-align: center;
-  // margin-top: 12px;
   width: 153px;
   font-size: 14px;
   font-family: 'Crete Round', serif;
@@ -28,6 +27,3 @@
   text-align: center;
 }
 
-.round-button {
-
-}
