@@ -18,6 +18,7 @@ h1 {
 
 p {
   font-family: 'Crete Round', serif;
+  letter-spacing: 1.2px;
 }
 /*a:link   a:visited   a:hover   a:active */
 a {
@@ -44,12 +45,14 @@ a:active {
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.2); }
 
+.color-red {
+  color: #f44336;
+}
+
 .white {
   color: #ffffff;
 }
-.color {
-  color: #f44336;
-}
+
 
 .medium-head {
   font-family: 'Crete Round', serif;

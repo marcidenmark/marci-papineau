@@ -11,8 +11,10 @@
   font-family: 'Crete Round', serif;
   letter-spacing: 2px;
 }
-
-.button-main a {
+.button-main a:hover {
+  color: #f8877f !important;
+}
+.button-main a:visited {
   color: white;
 }
 
@@ -27,3 +29,4 @@
   text-align: center;
 }
 
+  #f8877f
