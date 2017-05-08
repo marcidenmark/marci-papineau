@@ -1,0 +1,46 @@
+h2 {
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 2.625rem;
+    letter-spacing: .03125rem;
+    text-transform: none;
+    max-width: 840px;
+    margin: auto auto 60px;
+}
+
+
+h3 {
+    font-family: Open Sans,sans-serif;
+    font-style: normal;
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 2.625rem;
+    letter-spacing: .03125rem;
+    text-transform: none;
+    margin-bottom: 8px;
+}
+
+
+.jobs__panel {
+    display: inline-block;
+    color: inherit;
+    position: relative;
+    background: #fff;
+    max-width: 360px;
+    box-shadow: 0 0 8px rgba(42,48,58,.1);
+    -webkit-transition: box-shadow .3s;
+    transition: box-shadow .3s;
+}
+.education__vector-panel {
+    width: 360px;
+    height: 360px;
+    background-color: #fff;
+    padding: 70px 45px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 20px -5px rgba(0,0,0,.1);
+}
+
+
