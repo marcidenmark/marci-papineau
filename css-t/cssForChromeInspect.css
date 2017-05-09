@@ -13,7 +13,8 @@ a {
 }
 h1  {
  font-family: 'Georgia', serif;
- font-weight:normal;
+ font-weight: 600;
+ font-weight: bold;
  font-size: 68px;
  line-height: 71px;
  letter-spacing: 3px;
@@ -28,7 +29,7 @@ nav {
 h2.lead {
     font-family: 'Georgia', serif;
     text-align: center;
-    /* font-style: italic; */
+    font-style: italic;
     font-weight:normal;
     font-size: 40px;
     line-height: 36px;
@@ -47,15 +48,17 @@ p.lead {
 a.btn.btn-lg.btn-primary.btn-tel {
     background-color: #4CAF50; /* Green */
     border: none;
-    width:180px;
+    width: 206px;
     height:80px;
     color: white;
+    padding-top: 10px;
     padding: 90px 32px;
+    px; */
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    padding:40px    ;
+    padding:40px;
 }
 
 a.btn.btn-lg.btn-primary {
@@ -96,6 +99,7 @@ h2.text-center.title {
 
 h2.h2-small {
     font-family: 'Georgia', serif;
+    font-style:italic;
     font-size: 15px;
     /* line-height: 30px; */
     line-height: 27px;
@@ -106,4 +110,11 @@ p {
     font-size: 15px;
     /* line-height: 30px; */
     line-height: 27px;
+}
+
+
+h1 {}
+
+h2.text-center.title {
+    font-weight: 400;
 }
