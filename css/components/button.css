@@ -11,6 +11,10 @@
   font-family: 'Crete Round', serif;
   letter-spacing: 2px;
 }
+
+.button-main a{
+ color:white;
+}
 .button-main a:hover {
   color: #f8877f !important;
 }
@@ -20,8 +24,8 @@
 
 .button-more {
   background-color: #EF233C;
-  box-shadow: 1px 1px 5px 0px rgba(169,169,169,0.50);
-  color: white;
+/*  box-shadow: 1px 1px 5px 0px rgba(169,169,169,0.50);
+*/  color: white;
   border:none;
   padding: 8px 22px;
   text-align: center;
