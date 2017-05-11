@@ -87,6 +87,10 @@ a:active {
   margin-right: 10px;
 }*/
 
+.twitter-container {
+ padding: 0px 75px;
+}
+
 .my-container {
  margin:30px;
 }

@@ -13,7 +13,7 @@
 }
 
 .button-main a{
- color:white;
+ color:white !important;
 }
 .button-main a:hover {
   color: #f8877f !important;
