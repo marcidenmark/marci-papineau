@@ -1,8 +1,0 @@
-[23-May-2016 13:07:47 UTC] PHP Warning:  set_time_limit(): Cannot set max execution time limit due to system policy in /customers/7/0/5/translatedbyus.com/httpd.www/api/web/index.php on line 114
-[23-May-2016 13:10:04 UTC] PHP Warning:  set_time_limit(): Cannot set max execution time limit due to system policy in /customers/7/0/5/translatedbyus.com/httpd.www/api/web/index.php on line 114
-[23-May-2016 13:13:51 UTC] PHP Warning:  set_time_limit(): Cannot set max execution time limit due to system policy in /customers/7/0/5/translatedbyus.com/httpd.www/api/web/index.php on line 114
-[23-May-2016 13:14:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /customers/7/0/5/translatedbyus.com/httpd.www/api/web/index.php on line 153
-[23-May-2016 13:46:07 UTC] PHP Warning:  set_time_limit(): Cannot set max execution time limit due to system policy in /customers/7/0/5/translatedbyus.com/httpd.www/api/web/index.php on line 114
-[23-May-2016 13:47:49 UTC] PHP Warning:  set_time_limit(): Cannot set max execution time limit due to system policy in /customers/7/0/5/translatedbyus.com/httpd.www/api/web/index.php on line 114
-[23-May-2016 13:49:12 UTC] PHP Warning:  set_time_limit(): Cannot set max execution time limit due to system policy in /customers/7/0/5/translatedbyus.com/httpd.www/api/web/index.php on line 114
-[23-May-2016 13:49:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /customers/7/0/5/translatedbyus.com/httpd.www/api/web/index.php on line 153

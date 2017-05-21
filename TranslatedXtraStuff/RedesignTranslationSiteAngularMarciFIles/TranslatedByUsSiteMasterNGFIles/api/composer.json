@@ -1,7 +1,0 @@
-{
-    "require": {
-        "silex/silex": "~1.2",
-        "swiftmailer/swiftmailer": "@stable",
-        "pclzip/pclzip": "~2.8"
-    }
-}
