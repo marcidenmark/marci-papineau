@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html ng-app="translatedbyus">
+<head lang="da">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title ng-bind="metatags.title">Translated Bu Us</title>
+	<meta name="description" content="{{ metatags.description }}" >
+	<base href="/">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="assets/css/c3/c3.min.css">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<!--noto sans-->
+	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<!-- chosen -->
+	<link rel="stylesheet" href="assets/css/bootstrap-chosen.css">
+	<!-- dropzone -->
+	<link rel="stylesheet" href="assets/css/dropzone.css">
+	<!-- myownchanges -->
+	<link rel="stylesheet" href="assets/css/template.css">
+
+	<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MZ4DGD"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-MZ4DGD');</script>
+	<!-- End Google Tag Manager -->
+
+</head>
+<body ng-cloak ng-controller="MainController as mainCtrl">
+
+<nav>
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/"><img class="img-responsive" src="assets/img/logo.png" /></a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="collapse">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="om-os">Om os</a>
+				</li>
+				<li>
+					<a href="hjemmeside">Oversæt hjemmeside</a>
+				</li>
+				<li>
+					<a href="privatlivspolitik">Privatlivspolitik</a>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="brand-info">
+					<div class="data-wrap">
+						<i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+45-23-67-42-72"> (+45) 23 67 42 72</a>
+					</div>
+					<div class="data-wrap">
+						<i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:info@translatedbyus.com">info@translatedbyus.com</a>
+					</div>
+				</li>
+				<li>
+					<button ng-click="reset_order(); changeView('bestil')" class="navbar-btn btn btn-success">Bestil oversættelse</button>
+				</li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+	<div class="clearfix"></div>
+</nav>
+
+<div class="container">
+	<main>
+		<div ng-view autoscroll="true"></div>
+	</main>
+</div>
+
+<footer>
+	<div class="cta-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<i class="fa fa-phone"></i>&nbsp;
+					<a href="tel:+4526363139">(+45) 26 36 31 39</a>
+				</div>
+				<div class="col-sm-6">
+					<i class="fa fa-envelope-o"></i>&nbsp;
+					<a href="mailto:info@translatedbyus.com">info@translatedbyus.com</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h4>Translated By Us ApS</h4>
+					<p>Ellegårdsvej 10 1st floor<br />
+						2820 Gentofte<br />
+						Denmark
+					</p>
+					<p>(+45) 23 67 42 72<br />
+						info@translatedbyus.com
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="person">
+						<img src="assets/img/persons/gitta.jpg" class="img-circle img-responsive">
+						<div><strong>Gitta Helena Greve</strong></div>
+						<div>Produktionschef</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="person">
+						<img src="assets/img/persons/thor.jpg" class="img-circle img-responsive">
+						<div><strong>Thor Angelo</strong></div>
+						<div>Co-Founder</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="person">
+						<img src="assets/img/persons/mads.jpg" class="img-circle img-responsive">
+						<div><strong>Mads Ingeman Blücher</strong></div>
+						<div>Direktør</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion_async.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="assets/js/c3/d3.min.js"></script>
+<script type="text/javascript" src="assets/js/c3/c3.min.js"></script>
+
+<script type="text/javascript" src="assets/js/dropzone.js"></script>
+<script type="text/javascript" src="assets/js/jquery.printElement.min.js"></script>
+
+<!-- Angular JS -->
+<script type="text/javascript" src="assets/js/angular.min.js"></script>
+<script type="text/javascript" src="assets/js/angular-route.min.js"></script>
+
+<script type="text/javascript" src="assets/js/chosen.jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/angular-chosen.min.js"></script>
+<script type="text/javascript" src="assets/js/angular-dropzone.js"></script>
+<script type="text/javascript" src="assets/js/angular-google-analytics.min.js"></script>
+<script type="text/javascript" src="assets/js/braintree-angular.js"></script>
+<script type="text/javascript" src="assets/js/angular-metatags.min.js"></script>
+
+<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/form.js"></script>
+<script type="text/javascript" src="assets/js/confirmation.js"></script>
+<script type="text/javascript" src="assets/js/archive.js"></script>
+
+</body>
+</html>

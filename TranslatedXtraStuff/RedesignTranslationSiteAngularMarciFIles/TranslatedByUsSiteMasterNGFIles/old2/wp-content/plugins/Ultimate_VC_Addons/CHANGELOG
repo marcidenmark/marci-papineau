@@ -1,0 +1,35 @@
+3.13.7
+- Fixed: Headings - duplicate uniqid conflict in fast server execution time
+- Fixed: Fancy Text - Resources are not loading due optimized resources improvement in 3.13.5
+- Fixed: Google Maps - Styled maps not working in IE
+- Fixed: Info Box - Twenty fifteen theme link border issue
+- Fixed: Google Maps - Marker info not working on mouse click event
+- Fixed: Content Box - Border color issue in FireFox
+- Fixed: Advanced Carousel - Horizontal full width issue
+- Fixed: Google Maps - Zoom on scrolling not working
+- Fixed: Image Separator - CSS conflict with VC
+- Fixed: Info Tables - Misaligned button
+- Fixed: Info Tables - Title and subtitle color not working
+- Improvement: List icon - Typography added
+- Improvement: Highlight box - w3c validation
+- Improvement: Smooth scroll script update used "Mousewheel Smooth Scroll" plugin's script
+- Improvement: Google Maps - Pan control removed in v3
+- Improvement: Future release VC4.8 compatible
+
+3.13.6
+- Fixed: Backgrounds not working since 3.13.5
+- Improvement: Optimized resources will load only if ultimate element is exists on page
+
+3.13.5
+- Fixed: Google Font Manager: Not working if Load scripts globally option is active
+- Fixed: Content-Box - Margin not working.
+- Fixed: Tab -Accordion content not visible issue
+- Fixed: Advanced Tabs - old vc not supported function
+- Fixed: Creative Button - Safari/Mac style 9 issue
+- Fixed: Dual Button - Misaligned icons in Safari/Mac
+- Fixed: Advanced Button - Border radius on hover issue in Safari/Mac
+- Fixed: Advanced Button - removed unnecessary padding if link applied
+- Fixed: Hotspot - Not working in admin since VC 4.7.4
+- Improvement: BSF Core - HTML5 Local Storage form filling
+- Improvement: BSF Core - Changelog link on update notice
+- Improvement: BSF Core - Ajax featured shiny updates

@@ -1,0 +1,261 @@
+<div class="container">
+	<main>
+		<div class="section order-confirmation" ng-controller="ConfirmationController as confCtrl">
+
+			<h1 class="text-center">Din ordre</h1>
+
+			<div ng-if="order.count > 0">
+
+				<div class="row">
+
+					<h2>Projekt</h2>
+					<table class="table">
+						<tr>
+							<th scope="row">Projekt navn</th>
+							<td>{{order.project_name}}</td>
+						</tr>	
+						<tr>
+							<th scope="row">Navn</th>
+							<td>{{order.name}}</td>
+						</tr>	
+						<tr>
+							<th scope="row">E-mail</th>
+							<td>{{order.email}}</td>
+						</tr>	
+						<tr>
+							<th scope="row">Ord i alt</th>
+							<td>{{order.count}}</td>
+						</tr>
+						<tr>
+							<th scope="row">Forventet levering</th>
+							<td>{{ order.estimation }} hverdage</td>
+						</tr>
+					</table>
+
+				</div>
+
+				<div class="row">
+
+					<h2>Valgte sprog</h2>
+					<table class="table">
+						<tr>
+							<th scope="row">Fra</th>
+							<td>{{ confCtrl.fromlang }}</td>
+						</tr>	
+						<tr>
+							<th scope="row">Til</th>
+							<td><span ng-repeat="lang in confCtrl.langs | inArray:order.tolanguage:'id'">{{lang.name}}{{$last ? '' : ', '}}</span></td>
+						</tr>
+					</table>
+
+				</div>
+
+				<div class="row">
+
+					<h2>Du har valgt</h2>
+					<table class="table">
+						<tr>
+							<th scope="row">Produkt</th>
+							<td>{{order.type}}</td>
+						</tr>	
+						<tr>
+							<th scope="row">Pris</th>
+							<td>{{ order.word_price ? 'DKK ' + ( order.word_price | number ) + '/ord' : 'Gratis' }}</td>
+						</tr>
+						<tr ng-if="order.no_vat">
+							<th scope="row"></th>
+							<td>Ikke momspligtig</td>
+						</tr>
+					</table>
+
+				</div>
+
+				<div class="row">
+
+					<h2>I alt: DKK {{ order.total | number : 2 }}</h2>
+					<p>Total inklusiv Moms: DKK {{ ( order.total + order.vat ) | number : 2 }}</p>
+
+				</div>
+
+				<div class="text-center">
+
+					<h2>Tak for din ordre.</h2>
+					<p>Vi sender dig en mail med din oversættelse så snart den er klar.</p>
+
+					<div class="row">
+
+						<div class="col-md-6">
+							<div class="btn btn-block btn-success" ng-click="print_order()"><i class="fa fa-print"></i> Klik her for at printe ordrebekræftelse</div>
+						</div>
+
+						<div class="col-md-6">
+							<div class="btn btn-block btn-success" ng-click="reset_order(); changeView('bestil-oversaettelse')"><i class="fa fa-refresh"></i> Klik her for at starte forfra</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div ng-if="order.count == 0">
+				<div class="btn btn-block btn-success" ng-click="reset_order(); changeView('bestil-oversaettelse')"><i class="fa fa-refresh"></i> Klik her for at starte forfra</div>
+			</div>
+
+		</div>
+	</main>
+</div>
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Translated By Us",
+      "description":"Oversættelsesbureau - Få oversat din tekst eller hjemmeside i dag! Vi tilbyder hurtig & billig oversættelse uden minimumsgebyr og til 79 øre pr. ord.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Gentofte",
+        "postalCode": "2820",
+        "streetAddress": "Ellegårdsvej 10, 1.st floor"
+      },
+      "currenciesAccepted":"DKK",
+      "paymentAccepted":"Dankort, Visa, VisaDankort, Mastercard, m.m.",
+      "telephone": "23 67 42 72",
+      "url": "https://translatedbyus.com/",
+      "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes":  "23:59:00",
+          "dayOfWeek": "Mandag",
+          "opens":  "00:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes":  "23:59:00",
+          "dayOfWeek": "Tirsdag",
+          "opens":  "00:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes":  "23:59:00",
+          "dayOfWeek": "Onsdag",
+          "opens":  "00:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes":  "23:59:00",
+          "dayOfWeek": "Torsdag",
+          "opens":  "00:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes":  "23:59:00",
+          "dayOfWeek": "Fredag",
+          "opens":  "00:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes":  "23:59:00",
+          "dayOfWeek": "Lørdag",
+          "opens":  "00:00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "closes":  "23:59:00",
+          "dayOfWeek": "Søndag",
+          "opens":  "00:00:00"
+        }
+      ]
+    }
+</script>
+
+<script type="application/ld+json">
+{
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "address":{
+        "@type": "PostalAddress",
+          "addressRegion": "Gentofte",
+          "postalCode": "2820",
+          "streetAddress": "Ellegårdsvej 10, 1.st floor"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "152"
+      },
+      "areaServed":{
+      	"@type":"GeoShape",
+        "addressCountry":"Danmark"
+      },
+      "contactPoint":"",
+      "email":"info@translatedbyus.com",
+      "hasOfferCatalog":"",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Gentofte",
+          "postalCode": "2820",
+          "streetAddress": "Ellegårdsvej 10, 1.st floor"
+        }
+      },
+      "logo":"https://translatedbyus.com/assets/img/logo.png",
+      "telephone":"23 67 42 72",
+      "vatID":"37407887",
+      "mainEntityOfPage":{
+      	"@type": "CreativeWork",
+      	"translator":"Translated By Us"
+      },
+      "url":"https://translatedbyus.com/",
+      "sameAs":[
+      "https://www.facebook.com/translatedbyus/",
+      "https://www.linkedin.com/company/translated-by-us",
+      "https://plus.google.com/+TranslatedByUsGentofte",
+      "https://twitter.com/tbu_world_wide"],
+      "name":"Translated By Us"
+}
+</script>
+<script type="application/ld+json">
+{
+      "@context": "http://schema.org",
+      "@type": "Service",
+      "name":"Translated By Us",
+      "offers":[
+      {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency":"DKK",
+        "description":"pr. ord",
+        "name":"Maskin-oversættelse",
+	    "description":"Egner sig til overordnet forståelse af tekstindhold. Kryptering sikrer fortroligt materiale. Andre gratis tilbud på nettet er ikke sikret."
+      },
+      {
+        "@type": "Offer",
+        "price": "0.79",
+        "priceCurrency":"DKK",
+        "description":"pr. ord",
+        "name":"Basis oversættelse",
+	    "description":"Egner sig til: Juridiske tekster, Financielle rapporter, Præsentationer, Kataloger og flyers, Manualer, Faglige artikler"
+      },
+      {
+        "@type": "Offer",
+        "price": "0.99",
+        "priceCurrency":"DKK",
+        "description":"pr. ord",
+        "name":"Business translation",
+	    "description":"Egner sig til: Juridiske tekster, Financielle rapporter, Præsentationer, Kataloger og flyers, Manualer, Faglige artikler"
+      }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "152"
+      },
+      "areaServed":{
+      	"@type":"GeoShape",
+        "addressCountry":"Danmark"
+      },
+      "provider":"Translated By Us"
+}
+</script>

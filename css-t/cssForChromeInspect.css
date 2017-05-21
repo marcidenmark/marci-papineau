@@ -30,7 +30,7 @@ h2.lead {
     font-family: 'Georgia', serif;
     text-align: center;
     font-style: italic;
-    font-weight:normal;
+    font-weight:bold;
     font-size: 40px;
     line-height: 36px;
     letter-spacing: 1px;
@@ -38,42 +38,62 @@ h2.lead {
     margin: 22px 0px;
 }
 
-p.lead {
+h3.lead {
     font-family: 'Georgia', serif;
-    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    font-weight:normal;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    line-height: 44px;
+    margin: 22px 0px;
+    border-top: 1px solid white;
+    margin-left: 110px;
+    margin-right: 110px;
+    padding-top: 10px;
+}
+
+
+h3 {
+    font-family: 'Georgia', serif!important;
+    text-align: center;
+    font-style: italic;
+/*    font-weight: 700!important;
+*/    font-size: 30px!important;
+    line-height: 36px;
+    letter-spacing: 1px;
+    line-height: 44px;
+    margin: 22px 0px;
+}
+
+
+p.lead {
+/*    font-family: roboto condensed;
+*/    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 1px;
     /* line-height: 30px; */
     line-height: 27px;
 }
 
-a.btn.btn-lg.btn-primary.btn-tel {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    width: 206px;
-    height:80px;
-    color: white;
-    padding-top: 10px;
-    padding: 90px 32px;
-    px; */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    padding:40px;
-}
 
 a.btn.btn-lg.btn-primary {
     background-color: #4CAF50; /* Green */
     border: none;
     width:180px;
-    height: 10px;
+    height: 40px;
     color: white;
-    padding: 90px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    padding:40px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right:10px;
     border-radius: 5px;
+    margin:0 auto;
 }
 
 .cta-box.round-borders.shadow {}
@@ -93,28 +113,85 @@ h2.text-center.title {
     font-size: 40px;
     line-height: 36px;
     letter-spacing: 1px;
-    line-height: 44px;
+    line-height: 47px;
     margin: 22px 0px;
 }
 
 h2.h2-small {
     font-family: 'Georgia', serif;
-    font-style:italic;
-    font-size: 15px;
+/*    font-style:italic;
+*/    font-size: 15px;
     /* line-height: 30px; */
     line-height: 27px;
 }
 
 p {
     font-family: 'Georgia', serif;
-    font-size: 15px;
+    font-size: 16px;
     /* line-height: 30px; */
     line-height: 27px;
 }
 
 
-h1 {}
 
 h2.text-center.title {
-    font-weight: 400;
+    font-weight: 600;
+    color: #08599b;
+    margin-bottom: 40px;
+    font-style: italic;
+}
+
+
+img.img-responsive {
+    padding-left: 15px;
+}
+
+
+
+img.img-responsive {
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+
+.usp {
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+
+p.desc {
+    font-weight: 600;
+    color: black;
+}
+
+.padding-wrapper {
+ padding-left: 50px;
+ padding-right: 50px;
+}
+.smallcaps {
+    font-variant: small-caps;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.blue {
+  color: #08599b;
+}
+
+/*h2 margin bottom zero when ontop of a paragraph */
+.home-section .row>div>h2:first-child {
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.zeromargin {
+ margin-top: 0px;
+}
+
+ol {
+    padding-left: 21px;
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: bold;
 }

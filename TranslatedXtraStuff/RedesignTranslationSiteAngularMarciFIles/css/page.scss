@@ -1,0 +1,753 @@
+/*
+* Rules for pages
+*/
+  $text-color: #5a5a5a;
+
+  /*
+  * Main
+  */
+    main {
+      margin: 60px 0;
+      h1, h2, h3, h4, h5 {
+        color: #5a5a5a;
+        font-weight: 600;
+        margin: 30px 0;
+      }
+      h1 {
+        font-size: 2.5em;
+      }
+      h2, .h1-small {
+        font-size: 2.0em;
+      }
+      h2.h2-small {
+        font-size: 18px;
+        margin: 3px 0;
+      }
+      h3 {
+        font-size: 1.8em;
+      }
+      hr {
+        border-top: 3px #ccc solid;
+        border-bottom: 0;
+        background-color: none;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+  /*
+  * Sections
+  */
+    .section{
+      &>h1, &>h2{
+        font-weight: 600;
+        margin-bottom: 60px;
+      }
+      &.privat>h2 {
+        margin-bottom: 10px;
+      }
+    }
+
+    .section-title{
+      font-weight: 300;
+    }
+
+    .home-section{
+      padding: 40px 0;
+      h2.title{
+        color: #08599b;
+        font-size: 40px;
+        font-weight: 200;
+      }
+      main{
+        margin: auto;
+        .section{
+          margin: auto;
+        }
+      }
+      .row > div > h2:first-child() {
+        margin-top: 0;
+      }
+    }
+
+    .section-white{
+      background: #fff;
+
+      h2{
+        margin-bottom: 60px;
+      }
+
+      h1,h2,h3,h4,h5,h6,p,a{
+        color: $text-color;
+      }
+    }
+
+    /*
+    * Persons ( /oversaettere )
+    */
+    .section-persons{
+      .section-title{
+        margin-bottom: 80px;
+      }
+      .person-wrap{
+        padding-left: 50px;
+      }
+      .person-image{
+
+      }
+      .person-name{
+        margin-bottom: 10px;
+        font-weight: 600;
+        color: $main-color;
+      }
+      .person-info{
+        color: $text-color;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .person-desc{
+        //margin-left: 10px;
+        h4{
+          font-weight: 600;
+          margin-bottom: 10px;
+        }
+        p{
+          font-size: 16px;
+          //font-weight: 300;
+        }
+      }
+
+      @media (max-width: 759px){
+        .person-image{
+          img{
+            margin: auto;
+            margin-bottom: 60px;
+          }
+        }
+        .person-wrap{
+          padding-left: 15px;
+        }
+      }
+    }
+
+  /*
+  * Hero
+  */
+    .hero{
+      background: url('../img/banner.jpg') no-repeat top center / cover;
+
+      color: #fff;
+      text-align: center;
+
+      .hero-content{
+        padding: 135px 0;
+
+        opacity: .95;
+
+        h1{
+          font-size: 60px;
+          font-weight: 100;
+          margin-bottom: 20px;
+          margin-top: 0;
+        }
+
+        @media (max-width: 759px) {
+          padding: 30px 0;
+
+          h1{
+            font-size: 32px;
+            line-height: 42px;
+          }
+        }
+
+        .btn-primary{
+          font-size: 22px;
+          padding: 15px 40px;
+          background: $sub-color;
+
+          &:hover{
+            background: darken($sub-color,5%);
+          }
+
+          -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+          -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+          box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+
+          + .lead {
+            margin: 10px 0;
+          }
+
+          &.btn-tel {
+            white-space: normal;
+          }
+
+        }
+      }
+    }
+
+  /*
+  * Mobile stripe
+  */
+    .mobile-stripe {
+      background: #51708c;
+      padding: 10px 0;
+
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+      }
+
+    }
+
+  /*
+  * USPS
+  */
+    .home-section.usps{
+      background: #f5f9fc;
+
+      .cta-box {
+        font-size: 24px;
+        padding: 15px 25px;
+        .btn.btn-success {
+          font-size: 22px;
+          padding: 12px 36px;
+          background: #55b145;
+          box-shadow: 0 0px 7px 0 rgba(0,0,0,.2);
+          margin: 8px 0px 8px 0px;
+        }
+      }
+    }
+      .usp-statement{
+        color: #324250;
+
+        h2{
+          color: inherit;
+          font-weight: 600;
+        }
+
+        p{
+          //font-weight: 300;
+          font-size: 16px;
+        }
+      }
+
+  /*
+  * Quotes
+  */
+
+    .home-section.quotes{
+      padding-bottom: 80px;
+      h2.title{
+        color: #616161;
+      }
+      .quote{
+        p{
+          font-size: 16px;
+          //font-weight: 300;
+        }
+      }
+
+      .partner-item{
+        padding: 10px 20px 30px 20px;
+        transition: all .2s ease-in-out;
+
+          &:hover{
+            background: #fff;
+            box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+          }
+      }
+    }
+
+  /*
+  * Video
+  */
+    .home-section.video{
+      background: #fff;
+      padding-bottom: 80px;
+    }
+
+  /*
+  * Testi
+  */
+  .home-section.testi{
+    background: #fff;
+
+    .carousel-inner{
+      color: #5a6b78;
+      margin: 60px 0;
+      min-height: 120px;
+      .item{
+        text-align: center;
+        padding: 0 20%;
+
+        p.desc{
+          font-size: 22px;
+          font-weight: 100;
+        }
+
+        h3.title{
+          font-size: 16px;
+          font-weight: 600;
+        }
+      }
+    }
+
+    @media (max-width: 759px) {
+      .carousel-inner{
+        min-height: 160px;
+      }
+    }
+
+    .carousel-control{
+      transition: all .2s ease-in-out;
+      background: transparent !important;
+      .arrow{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+    }
+  }
+
+  /*
+  * CTA
+  */
+    .home-section.cta{
+      background: $sub-color;
+      text-align: center;
+
+      p {
+        margin: 0;
+        color: #fff;
+      }
+
+      .cta-btn{
+          color: #fff;
+          font-size: 26px;
+          padding: 15px 50px;
+          margin: 20px auto;
+
+          border: 3px solid #fff;
+        &:hover{
+          transform: scale(.9,.9);
+        }
+
+      }
+    }
+
+  /*
+  * Customers
+  */
+  .home-section.customers{
+    padding: 70px 50px;
+    background: #1d3244;
+
+    @media (max-width: 759px) {
+      padding: 50px 10px;
+    }
+
+    img{
+      opacity: .7;
+      @media (max-width: 759px){
+        margin: 0 auto;
+      }
+    }
+  }
+
+
+  /*
+  * Pages
+  */
+    main .section {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    /*
+    * Frontpage
+    */
+    main {
+      .usps .usp {
+        margin: 20px 0;
+        .usp-image {}
+        .usp-statement h3 {
+          font-weight: normal;
+        }
+      }
+      .quotes .quote {
+        margin: 20px 0;
+        a {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+      }
+      .customer-logos .customer-logo {
+        margin: 20px 0;
+        text-align: center;
+        li img {
+          max-width: 250px;
+          margin: 20px;
+        }
+      }
+    }
+
+    /*
+    * About Us
+    */
+      main .contact {
+        background: #fff;
+          box-shadow: 0 1px 1px rgba(0,0,0,.2);
+          padding: 10px 20px 13px 20px;
+          &>h3{
+            margin-top: 10px;
+          }
+      }
+
+    /*
+    * Validering
+    */
+      .validering-feature {
+        margin-top: -31px;
+      }
+
+    /*
+    * Order
+    */
+      main .order-website {
+        margin: 50px auto 90px auto;
+
+        .order-form-wrap{
+          background: #fff;
+            box-shadow: 0 1px 1px rgba(0,0,0,.2);
+            padding: 30px 30px 40px 30px;
+            h3{
+              margin-top:0;
+            }
+        }
+      }
+
+      main .order-steps {
+        margin-bottom: 200px;
+        .uploader {
+          font-size: 25px;
+          text-align: center;
+          padding: 50px;
+          border: 3px dashed #aaa;
+          border-radius: 3px;
+
+          &:hover {
+            background-color: #f1f1f1;
+            border-color: #08599b;
+            cursor: pointer;
+          }
+        }
+        .totals {
+          padding: 30px 0;
+          font-size: 25px;
+        }
+        .checkbox {
+          margin: 10px 0;
+          font-size: 22px;
+          small {
+            font-size: 17px;
+          }
+        }
+      }
+
+      .price-summary {
+        position: fixed;
+        bottom: 16px;
+        right: 16px;
+        font-size: 18px;
+        background-color: #fff;
+        z-index: 100;
+        strong {
+          display: block;
+          padding: 12px 15px;
+          background-color: #333;
+          color: #fff;
+        }
+      p {
+        padding: 12px 15px;
+      }
+      .btn {
+        margin-top: 10px;
+      }
+    }
+
+    /*
+    * Service picker
+    */
+      .order-block {
+        #ordertext::-webkit-input-placeholder {
+          color: #aaa;
+          font-size: 20px;
+        }
+        .fa {
+          background: $sub-color;
+          color: #FFF;
+          padding: 0px;
+          width: 0px;
+          font-size: 40px;
+          height: 0px;
+          margin: 0 auto;
+          position: relative;
+          display: block;
+          border-radius: 100%;
+          transition: all 300ms;
+          text-align: center;
+          max-height: 0px;
+          overflow: hidden;
+        }
+        .active .fa {
+          padding: 10px;
+          height: 60px;
+          max-height: 60px;
+          width: 60px;
+        }
+        .selectable {
+          cursor: pointer;
+          position: relative;
+          transition: all 300ms;
+          h3 {
+            font-size: 24px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+          }
+          h4 {
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+          }
+          hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+            border-top: 1px solid #ddd;
+          }
+          p {
+            font-size: 14px;
+          }
+          .btn {
+            border: 1px solid #DADADA;
+          }
+          &.active .btn {
+            background: $sub-color;
+            color: #fff;
+          }
+          .well {
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: background-color 500ms;
+            background-image: -webkit-linear-gradient(top,#f2f2f2,#ffffff);
+              background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#f2f2f2),to(#ffffff));
+            background-image: linear-gradient(180deg,#f2f2f2 0,#ffffff);
+          }
+          &:hover .well, &.active .well {
+            background-color: #fff;
+          }
+        }
+        .btn-default {
+          background-color: #24B083;
+          border-color: #24B083;
+          font-size: 20px;
+          text-transform: none;
+          &:hover {
+            background-color: #1465a7;
+            border-color: #1465a7;
+          }
+        }
+      }
+
+    /*
+    * Page Tips&Tricks
+    */
+    main.page-tips-og-triks{
+      margin: auto;
+      font-size: 17px;
+
+      p, ul, li, a{
+        font-size: 17px;
+
+      }
+
+      /*
+      * Gode rad section
+      */
+        .gode-rad-section{
+          padding: 40px 0 50px 0;
+          text-align: center;
+
+          @media (min-width: $screen-sm){
+            text-align: left;
+          }
+
+          .number-item{
+            min-height: 0;
+            margin-bottom: 45px;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            img{
+              max-width: 45px;
+              margin-bottom: 15px;
+            }
+
+            @media (min-width: $screen-sm){
+              min-height: 180px;
+            }
+
+            @media (min-width: $screen-md){
+              margin-bottom: 40px;
+              min-height: 160px;
+            }
+          }
+
+          .text-bottom{
+            font-size: 22px;
+            font-weight: 300;
+            margin-top: 30px;
+          }
+
+        }
+
+      /*
+      * File types
+      */
+        .file-types-header{
+          margin: 90px auto 60px auto;
+          h2.header{
+            text-align: center;
+            margin-bottom: 25px;
+          }
+        }
+
+        .file-type-item{
+          margin: 40px auto;
+          .type-icon{
+            width: 120px;
+            float: left;
+            text-align: center;
+
+            img{
+              max-width: 65px;
+            }
+
+            &.icon-smaller{
+              img{
+                max-width: 50px;
+              }
+            }
+          }
+          .type-desc{
+            width: calc(100% - 120px);
+            float: left;
+
+            h2.header{
+              font-weight: 600;
+              margin: 10px auto 15px auto;
+            }
+
+            p.sub-header{
+              font-weight: 400;
+              margin-bottom: 35px;
+            }
+
+            ul,ol{
+              padding-left:25px;
+              li{
+                margin-bottom: 20px;
+                padding-left: 5px;
+
+                &.extender{
+                  width: 0;
+                  height: 0;
+                  overflow: hidden;
+                  margin: 0;
+                }
+
+                ul,ol{
+                  margin-top: 5px;
+                  list-style: none;
+                }
+                li{
+                  position: relative;
+                  font-size: 15px;
+                  &:before{
+                    content: '';
+                    display: block;
+                    width: 7px;
+                    height: 3px;
+                    border-radius: 2px;
+                    background: $text-color;
+                    position: absolute;
+                    top: 8.5px;
+                    left: -20px;
+                  }
+                }
+              }
+            }
+          }
+
+          &.file-other-types{
+            margin-bottom: 100px;
+          }
+          .other-type{
+            .header{
+              margin-top:0;
+            }
+          }
+
+          @media (max-width: ($screen-sm - 1) ){
+            .type-icon{
+              width: 100%;
+              float: none;
+              margin-bottom: 10px;
+              text-align: center;
+            }
+            .type-desc{
+              width:100%;
+              float: none;
+              h2.header, p.sub-header{
+                text-align: center
+              }
+              &>.row{
+                max-width: 500px;
+                margin: auto;
+              }
+            }
+
+            .other-type{
+              text-align: center;
+              margin-bottom: 50px;
+              &:last-child{
+                margin-bottom:0;
+              }
+            }
+          }
+        }
+
+      /*
+      * Contact form section
+      */
+        .contact-form-section{
+          padding: 30px 0 60px 0;
+          h2.header{
+            color: $main-color;
+            text-align: center;
+          }
+
+          .uploader{
+            font-size: 25px;
+            text-align: center;
+            padding: 50px;
+            border: 3px dashed #aaa;
+            border-radius: 3px;
+          }
+        }
+    }
