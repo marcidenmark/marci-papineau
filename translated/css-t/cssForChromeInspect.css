@@ -6,8 +6,8 @@ a {
     height: 10px;
     padding: 24px 30px 20px 30px;
     margin-bottom:0px;
-    font-weight:400;
-    font-size: 14px;
+    font-weight:bold;
+    font-size: 17px;
     line-height: 30px;
     letter-spacing: 1px;
 }
@@ -23,8 +23,24 @@ h1  {
 }
 
 nav {
-    padding-top: 20px;
+    padding-top: 24px;
+    padding-bottom: 14px;
 }
+h4 {
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight:600;
+}
+
+h5 {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight:600;
+}
+
 
 h2.lead {
     font-family: 'Georgia', serif;
@@ -96,7 +112,6 @@ a.btn.btn-lg.btn-primary {
     margin:0 auto;
 }
 
-.cta-box.round-borders.shadow {}
 
 .cta-box.round-borders.shadow {
     font-family: 'Georgia', serif;
@@ -120,7 +135,7 @@ h2.text-center.title {
 h2.h2-small {
     font-family: 'Georgia', serif;
 /*    font-style:italic;
-*/    font-size: 15px;
+*/    font-size: 18px;
     /* line-height: 30px; */
     line-height: 27px;
 }
@@ -171,8 +186,9 @@ p.desc {
 }
 .smallcaps {
     font-variant: small-caps;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .blue {
@@ -194,4 +210,34 @@ ol {
     font-family: Georgia;
     font-size: 17px;
     font-weight: bold;
+}
+.textbanner {
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+h2.h2-small {
+    font-style: italic;
+}
+
+.cta-box.round-borders.shadow {
+    margin-top: 25px;
+    margin-bottom: 64px;
+}
+
+p.desc {
+    font-weight: 600;
+}
+
+
+
+li {
+    font-size: 80px;
+}
+
+
+a {
+    font-variant: small-caps;
+    font-size: 15px!important;
+    font-weight: 700!important;
 }
