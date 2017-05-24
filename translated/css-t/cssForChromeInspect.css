@@ -186,7 +186,7 @@ p.desc {
 }
 .smallcaps {
     font-variant: small-caps;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -203,6 +203,8 @@ p.desc {
 
 .zeromargin {
  margin-top: 0px;
+     font-weight: 600 !important;
+
 }
 
 ol {
@@ -211,9 +213,11 @@ ol {
     font-size: 17px;
     font-weight: bold;
 }
-.textbanner {
+h3.textbanner {
     margin-bottom: 5px;
     margin-top: 30px;
+        font-weight: 600 !important;
+
 }
 
 h2.h2-small {
@@ -232,7 +236,7 @@ p.desc {
 
 
 li {
-    font-size: 80px;
+    font-size: 15px;
 }
 
 
