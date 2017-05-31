@@ -6,7 +6,21 @@
   position: relative;
   border-radius: 5px;
   margin-bottom: 20px;
+    transition: transform 1s;
+
+
 }
+/*.cardwrapper {
+  transition: transform 1s;
+}*/
+.card:hover {
+  transform: scale(1.1);
+}
+
+/*.card:target {
+ height: 500px
+}
+*/
 
 .card-description {
   position: absolute;
@@ -48,7 +62,10 @@
 .card-link:hover{
   opacity: 0.1;
 }
+.cardwrapper {
+ color: purple;
 
+}
 /*.card-user {
   position: absolute;
   right: 10px;
