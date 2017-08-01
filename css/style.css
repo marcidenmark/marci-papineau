@@ -6,6 +6,7 @@
 @import url("components/testimonials.css");
 @import url("components/samples.css");
 @import url("components/skills.css");
+@import url("components/readmore.css");
 
 h1, h2, h3, h4, h5 {
   font-family: 'Roboto Condensed', sans-serif;
@@ -15,11 +16,37 @@ h1 {
   font-size: 43px;
   color: #282A2B;
 }
-
+h5 {
+ font-size: 15px;
+}
 p {
   font-family: 'Crete Round', serif;
   letter-spacing: 1.2px;
 }
+p.italic {
+ font-style: italic;
+}
+
+.highlight {
+ color:#f44336;
+ background: black;
+ margin-right: 50px;
+ margin-left: 50px;
+
+}
+
+.design {
+ color: #f44336;
+}
+
+.code {
+ color: #f44336;
+}
+
+.designandcode {
+ color: #f44336;
+}
+
 /*a:link   a:visited   a:hover   a:active */
 a {
   color: #f44336;
@@ -61,6 +88,7 @@ a:active {
   font-size: 24px;
   letter-spacing: 1px;
   margin-bottom: 10px;
+  color: black;
 }
 .medium-head-2 {
   font-family: 'Crete Round', serif;
@@ -75,8 +103,9 @@ a:active {
 }
 
 .margin-left-right {
-  margin-left: 10px;
-  margin-right:10px;
+ padding: 23px 23px;
+ /* margin-left: 10px;
+  margin-right:10px;*/
 }
 /*.container {
   margin: 0 auto;

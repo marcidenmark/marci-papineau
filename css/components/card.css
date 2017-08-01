@@ -7,47 +7,11 @@
   border-radius: 5px;
   margin-bottom: 20px;
     transition: transform 1s;
-
-
 }
-/*.cardwrapper {
-  transition: transform 1s;
-}*/
+
 .card:hover {
   transform: scale(1.1);
 }
-
-/*.card:target {
- height: 500px
-}
-*/
-
-.card-description {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-
-.project-description h2 {
-  font-size: 22px;
-  color: #f44336;
-  margin-bottom: 10px
-}
-
-.project-description p {
-  font-size: 13px;
-  color: white;
-  margin-top: 0px;
-  margin-bottom: -3px;
-  letter-spacing: 1.5px;
-  line-height: 25px;
-}
-
-
-.card-description p {
-  font-size: 15px;
-}
-
 
 .card-link {
   position: absolute;
@@ -63,9 +27,43 @@
   opacity: 0.1;
 }
 .cardwrapper {
- color: purple;
-
+ background-color: white;
+ margin-bottom: 25px;
+ border-radius: 5px;
 }
+.cardwrapper:hover {
+ transition: transform 1s;
+}
+
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.project-description h2 {
+  font-size: 22px;
+  color: #f44336;
+  margin-bottom: 10px
+}
+
+.project-description p {
+  font-size: 13px;
+  color: black;
+  margin-top: 0px;
+  margin-bottom: -3px;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+}
+
+
+.card-description p {
+  font-size: 15px;
+}
+
+
+
 /*.card-user {
   position: absolute;
   right: 10px;
