@@ -24,12 +24,11 @@
 
 .button-more {
   background-color: white;
-    border-color:white!important;
+  border-color:white!important;
 
-/*  box-shadow: 1px 1px 5px 0px rgba(169,169,169,0.50);
-*/  color: black;
+  box-shadow: 1px 1px 5px 0px rgba(169,169,169,0.50);
+  color: #f8877f;
   border:none;
-  padding: 8px 22px;
   text-align: center;
   font-size: 14px;
   font-family: 'Crete Round', serif;
