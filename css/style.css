@@ -39,8 +39,10 @@ p.italic {
  color: #f44336;
 }
 
-.code {
+.design-italic {
  color: #f44336;
+ font-style: italic;
+font-weight: bold;
 }
 
 .designandcode {

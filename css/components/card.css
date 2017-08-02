@@ -62,7 +62,14 @@
   font-size: 15px;
 }
 
+/*card box annimations*/
 
+
+.info-box {
+  border:pink solid;
+  border-width: 3px;
+
+}
 
 /*.card-user {
   position: absolute;
