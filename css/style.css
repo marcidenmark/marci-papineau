@@ -66,6 +66,11 @@ a:hover {
   text-decoration: none;
 }
 
+a:focus {
+  border-color: #ffffff!important;
+  text-decoration: none;
+}
+
 a:active {
   color: #ffffff;
   text-decoration: none;

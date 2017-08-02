@@ -23,9 +23,11 @@
 }
 
 .button-more {
-  background-color: #EF233C;
+  background-color: white;
+    border-color:white!important;
+
 /*  box-shadow: 1px 1px 5px 0px rgba(169,169,169,0.50);
-*/  color: white;
+*/  color: black;
   border:none;
   padding: 8px 22px;
   text-align: center;
@@ -33,6 +35,22 @@
   font-family: 'Crete Round', serif;
   letter-spacing: 2px;
 }
+
+.button-more a{
+ color:white !important;
+}
+.button-more a:focus {
+  border-color: white !important;
+}
+.button-more a:visited {
+  border:none !important;
+  color: white;
+}
+.button-more a:hover {
+  color: #f8877f !important;
+}
+
+
 
 
 .button-grey {
