@@ -8,6 +8,13 @@
     transition: transform 1s;
 }
 /*card-b has no annimation*/
+
+.card-team {
+  height: 454px;
+}
+.card-comp-screens {
+  height: 596px;
+}
 .card-b {
   height: 381px;
   background-size: cover !important;
