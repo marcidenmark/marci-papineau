@@ -49,6 +49,10 @@ font-weight: bold;
  color: #f44336;
 }
 
+.margin-bottom {
+  margin-bottom: 15px;
+}
+
 /*a:link   a:visited   a:hover   a:active */
 a {
   color: #f44336;
@@ -134,7 +138,7 @@ a:active {
 }
 
 .borderline {
-  border-top: 1px solid #383838;
+  border-top: 2px solid #e6e8e6;
   margin-top: 34px;
   margin-bottom: 34px;
 }

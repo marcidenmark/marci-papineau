@@ -9,16 +9,18 @@
 }
 /*card-b has no annimation*/
 .card-b {
-  height: 415px;
+  height: 381px;
   background-size: cover !important;
   position: relative;
   border-radius: 5px;
 /*  margin-bottom: 20px;
-*/  margin:40px 0px;
+*/  margin:10px 0px;
 }
 
+
+
 .card-c {
-  height: 415px;
+  height: 707px;
 /*  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
 */  background-size: cover !important;
   position: relative;
@@ -38,6 +40,9 @@
 */  margin:40px 0px;
 /*    transition: transform 1s;
 */}
+.collapse-background {
+  background-color: pink;
+}
 
 .card:hover {
   transform: scale(1.1);
@@ -60,6 +65,7 @@
  background-color: white;
  margin-bottom: 25px;
  border-radius: 5px;
+ padding-bottom: 40px;
 }
 .cardwrapper:hover {
  transition: transform 1s;
@@ -88,10 +94,10 @@
 }
 
 
-.card-description p {
+/*.card-description p {
   font-size: 15px;
 }
-
+*/
 /*card box annimations*/
 
 
