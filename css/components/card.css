@@ -10,8 +10,13 @@
 /*card-b has no annimation*/
 
 .card-team {
-  height: 454px;
+  height: 287px;
+  background-size: cover !important;
+  position: relative;
+  border-radius: 5px;
+ margin:10px 0px;
 }
+
 .card-comp-screens {
   height: 596px;
 }
@@ -32,6 +37,7 @@
 */  background-size: cover !important;
   position: relative;
   border-radius: 5px;
+   background-repeat: no-repeat;
 /*  margin-bottom: 20px;
 */  margin:40px 0px;
 /*    transition: transform 1s;

@@ -1,6 +1,6 @@
 .testimonials {
-  display: flex;
-  justify-content: space-around;
+/*  display: flex;
+*/  justify-content: space-around;
   padding: 40px 20px 60px 20px;
   background-color: white;
 }
