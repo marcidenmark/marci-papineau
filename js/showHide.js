@@ -1,9 +1,0 @@
-<script>
- function toggle_visibility(id) {
-       var e = document.getElementById('incDiv');
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-    }
-</script>
