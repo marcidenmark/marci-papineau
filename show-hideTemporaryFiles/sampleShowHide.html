@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Reveal more about the project sample</title>
+ <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+<button onclick="myFunction()">Click here to read more about the project. Click again to hide again.</button>
+
+<div id="myDIV">
+  This is my DIV element.
+</div>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+
+
+  <!-- <h1>CLICK here if you want to see more about the project</h1>
+
+<label class="trigger">
+  <input type="checkbox" class="checkbox checkbox-red"/> Show additional information
+  <span class="msg">
+    Hey there, I'm fading in/out with pure CSS. How cool is that?!
+  </span>
+</label>
+
+<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+ -->
+
+</body>
+</html>

@@ -28,12 +28,8 @@ $(document).ready(function() {
 
                 if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
 
-
-
-
                         $(this).addClass('skillBarValue');
                     };
-
             });
             // console.log("--")
 
@@ -42,8 +38,6 @@ $(document).ready(function() {
     });
 
 });
-
-
 
 //console.log("second hello")
                         //console.log("window_top_position: " + window_top_position)

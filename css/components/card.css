@@ -78,8 +78,8 @@
  background-color: white;
  margin-bottom: 25px;
  border-radius: 5px;
- padding-bottom: 40px;
-}
+/* padding-bottom: 40px;
+*/}
 .cardwrapper:hover {
  transition: transform 1s;
 }
