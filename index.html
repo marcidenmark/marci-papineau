@@ -140,17 +140,37 @@
                                         <h2>IncPublishing.dk</h2> </a>
                                     <p>Website for a new media startup.
                                         <br/> The client supplied the texts and photos, and I put the site together in less then a week.</p>
+
+                                        <!-- start of hide show inc -->
+                                         <button onclick="toggle_visibility()" class="button-more btn-block"> Click to read more about the project. Click again to hide.</button>
+                                <script>
+                                function toggle_visibility(id) {
+                                    var e = document.getElementById('incDiv');
+                                    if (e.style.display == 'block')
+                                        e.style.display = 'none';
+                                    else
+                                        e.style.display = 'block';
+                                }
+                                </script>
+                                <!-- start of mmt hide show -->
+                                <div id="incDiv" style="display: none;">
+                                    <div class="borderline "> </div>
+                                    <h4>the team</h4>
+                                    <p>æjrkæleajræerjæ</p>
+
+                                </div>
+                                <!-- closing div to mmt hideshow -->
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- end of col -->
+                    <!-- end of col and inc. -->
                     <!-- mmt start-->
                     <div class="col-xs-12 col-sm-6">
                         <div class="cardwrapper">
                             <div class="margin-left-right">
                                 <a name="mmt">
-                          </a>
+                                </a>
                                 <a href="https://matchmythesis.herokuapp.com/" target="_blank">
                                     <div class="white text-center medium-head">Advanced webdesign and prototyping
                                     </div>
@@ -163,51 +183,44 @@
                                         <p>A prototype designed for a startup– consisting of a homepage, login forms and student and company pages. I did the wireframes and user journeys. </p>
                                 </a>
                                 <!-- new collapse -->
-
-
-              <button onclick="toggle_visibility()" class="button-more btn-block"> Click to read more about the project.
-              Click again to hide.</button>
-
-                                    <script>
-                                     function toggle_visibility(id) {
-                                           var e = document.getElementById('mmtDiv');
-                                           if(e.style.display == 'block')
-                                              e.style.display = 'none';
-                                           else
-                                              e.style.display = 'block';
-                                        }
-                                    </script>
+                                <button onclick="toggle_visibility()" class="button-more btn-block"> Click to read more about the project. Click again to hide.</button>
+                                <script>
+                                function toggle_visibility(id) {
+                                    var e = document.getElementById('mmtDiv');
+                                    if (e.style.display == 'block')
+                                        e.style.display = 'none';
+                                    else
+                                        e.style.display = 'block';
+                                }
+                                </script>
                                 <!-- start of mmt hide show -->
                                 <div id="mmtDiv">
-
-                                        <div class="borderline "> </div>
-                                        <h4>the team</h4>
-                                        <p>æjrkæleajræerjæ</p>
-                                        <div class="card-team " style="background: url( 'images/mmtGroup2.jpg'); "></div>
-                                        <div class="borderline "> </div>
-                                        <h4>Screenshots of app pages designed and programed for the first presentation of the project (3 weeks after start date)</h4>
-                                        <p>A bit more info about the project will go here. klfdafkæ jfkdsæaf fjdkslæadf fdjksaæfdj fjdksæafdjks fjdksaæfdjkl fjdkslæafjkl fjdklsæalkfjd fjkdæsafjkl fjkdlsæafjkl</p>
-                                        <div class="card-c " style="background: url( 'images/mmtreadMore2b.jpg'); "></div>
-                                        <div class="borderline "> </div>
-                                        <h4>Whitboards, wireframes and data base scheme at the start of the project</h4>
-                                        <p>1.læsajfæ fjdksæafjkl fdjklsæafk </p>
-                                        <div class="card-b " style="background: url( 'images/mmtReadMore1b.jpg'); "></div>
-                                        <div class="borderline "></div>
-                                        <h4>jfkdæsajkflæ fjdklæsafjkadlsæ</h4>
-                                        <p>jfklædsajkfæd fjkdlæsafkjdlæas fjdklæsafjk</p>
-                                        <div class="card-comp-screens " style="background: url( 'images/mmtReadMore4.jpg'); "></div>
-
+                                    <div class="borderline "> </div>
+                                    <h4>the team</h4>
+                                    <p>æjrkæleajræerjæ</p>
+                                    <div class="card-team " style="background: url( 'images/mmtGroup2.jpg'); "></div>
+                                    <div class="borderline "> </div>
+                                    <h4>Screenshots of app pages designed and programed for the first presentation of the project (3 weeks after start date)</h4>
+                                    <p>A bit more info about the project will go here. klfdafkæ jfkdsæaf fjdkslæadf fdjksaæfdj fjdksæafdjks fjdksaæfdjkl fjdkslæafjkl fjdklsæalkfjd fjkdæsafjkl fjkdlsæafjkl</p>
+                                    <div class="card-c " style="background: url( 'images/mmtreadMore2b.jpg'); "></div>
+                                    <div class="borderline "> </div>
+                                    <h4>Whitboards, wireframes and data base scheme at the start of the project</h4>
+                                    <p>1.læsajfæ fjdksæafjkl fdjklsæafk </p>
+                                    <div class="card-b " style="background: url( 'images/mmtReadMore1b.jpg'); "></div>
+                                    <div class="borderline "></div>
+                                    <h4>jfkdæsajkflæ fjdklæsafjkadlsæ</h4>
+                                    <p>jfklædsajkfæd fjkdlæsafkjdlæas fjdklæsafjk</p>
+                                    <div class="card-comp-screens " style="background: url( 'images/mmtReadMore4.jpg'); "></div>
                                 </div>
-                                    <!-- closing div to mmt hideshow -->
-
+                                <!-- closing div to mmt hideshow -->
                                 </div>
                                 <!-- end of mmt proj. description div -->
-
-
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- this is the second row (the bottom two cards on the page) -->
                 <div class="row ">
                     <div class="col-xs-12 col-sm-6 ">
                         <div class="cardwrapper margin-left-right ">
@@ -224,8 +237,11 @@
                                         <br />Features include pop up YouTube videos, a FAQ section, Geo location, and social media links.
                                     </p>
                                 </div>
-                        </div>
+                          </div>
                     </div>
+                    <!-- end of column -->
+
+                    <!-- start of column -->
                     <div class="col-xs-12 col-sm-6 ">
                         <div class="cardwrapper margin-left-right ">
                             <a name="print "></a>
@@ -242,10 +258,16 @@
                             </a>
                             </div>
                         </div>
+                        <!-- end of col -->
+
+
                     </div>
                 </div>
             </div>
         </div>
+
+
+
         <!-- skills -->
         <div class="skill-wrapper ">
             <a name="whatssospecial "> </a>
@@ -377,17 +399,16 @@
                     <div class="twitter-container ">
                         <a class="twitter-timeline " data-width="900 " data-height="500 " data-theme="light " data-link-color="#E81C4F " href="https://twitter.com/marcipapineau ">Tweets by marcipapineau</a>
                     </div>
-
-
                     <!-- twitter feed -->
-
                     <!-- copy from git  -->
-                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    <script>
+                    ! function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0],
+                            p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s);
+                            js.id = id;
+                            js.src = p + "://platform.twitter.com/widgets.js";
+                            fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");
+                    </script>
                     <!-- end of twitter feed -->
-
-
-
-
                 </div>
             </div>
         </div>
