@@ -37,17 +37,20 @@
 */  margin:10px 0px;
 }
 
+.card-inc  {
+    height: 647px;
 
+}
 
 .card-c {
-  height: 707px;
+  height: 663px;
 /*  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
 */  background-size: cover !important;
   position: relative;
   border-radius: 5px;
    background-repeat: no-repeat;
 /*  margin-bottom: 20px;
-*/  margin:40px 0px;
+margin:40px 0px;
 /*    transition: transform 1s;
 */}
 
@@ -106,12 +109,12 @@
 }
 
 .project-description p {
-  font-size: 13px;
+  font-size: 14px;
   color: black;
   margin-top: 0px;
   margin-bottom: -3px;
-  letter-spacing: 1.5px;
-  line-height: 25px;
+/*  letter-spacing: 1.5px;
+*/  line-height: 25px;
 }
 
 
