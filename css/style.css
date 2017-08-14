@@ -30,6 +30,13 @@ p {
 p.italic {
  font-style: italic;
 }
+/*used in banner*/
+h3 {
+    font-size: 28px;
+    padding-left: 27px;
+    font-family: 'Crete Round', serif;
+    letter-spacing: 1.2px;
+}
 
 .highlight {
  color:#f44336;
