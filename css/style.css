@@ -84,6 +84,9 @@ a:hover {
 a:focus {
   border-color: #ffffff!important;
   text-decoration: none;
+  outline: 0px !important;
+  outline-width: 0px;
+  outline-color: #ffffff;
 }
 
 a:active {
@@ -91,7 +94,9 @@ a:active {
   text-decoration: none;
 }
 
-
+.button-more:focus {
+  outline:none;
+}
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.2); }
