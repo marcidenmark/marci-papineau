@@ -35,21 +35,33 @@
     letter-spacing: 2px;
     margin-top: 11px;
     margin-left: -5px;
+/*    transition: all 0.5s ease;
+*/        -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+
 }
+
 
 .button-more a{
  color:white !important;
 }
-.button-more a:focus {
-  border-color: white !important;
-}
-.button-more a:visited {
+.button-more:visited {
   border:none !important;
   color: white;
 }
-.button-more a:hover {
+
+.button-more:hover {
   color: #f8877f !important;
+/*  transform: scale(1.1);
+*/      background: #cce3e5;
+    border-left: .3em solid #e86d5d;
 }
+
+.button-more a:focus {
+  border-color: white !important;
+}
+
+
 
 
 

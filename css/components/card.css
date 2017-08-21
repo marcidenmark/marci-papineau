@@ -92,18 +92,18 @@ margin:40px 0px;
   background: black;
   opacity: 0;
 }
-
+/*
 .card-link:hover{
   opacity: 0.1;
-}
+}*/
 .cardwrapper {
  background-color: white;
  margin-bottom: 25px;
  border-radius: 5px;
 }
-.cardwrapper:hover {
+/*.cardwrapper:hover {
  transition: transform 1s;
-}
+}*/
 
 .card-description {
   position: absolute;
