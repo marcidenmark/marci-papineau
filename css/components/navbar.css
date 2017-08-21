@@ -45,7 +45,6 @@
 }
 .navbar-right a:hover{
   background-color: #383838;
-  line-height: 100px;
   text-decoration: none;
   -webkit-transition: background-color .25s ease-in-out;
   transition: background-color .25s ease-in-out;

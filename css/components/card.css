@@ -40,22 +40,22 @@
   background-size: cover !important;
   position: relative;
   border-radius: 5px;
-/*  margin-bottom: 20px;
-*/  margin:10px 0px;
+  margin:10px 0px;
 }
 
 .card-inc  {
     height: 647px;
-
+}
+.card-ethan{
+  height: 338px !important;
 }
 
 .card-c {
   height: 663px;
-/*  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-*/  background-size: cover !important;
+  background-size: cover !important;
   position: relative;
   border-radius: 5px;
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
 /*  margin-bottom: 20px;
 margin:40px 0px;
 /*    transition: transform 1s;
@@ -63,14 +63,18 @@ margin:40px 0px;
 
 .card-d {
   height: 625px;
-/*  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-*/  background-size: cover !important;
+  background-size: cover !important;
   position: relative;
   border-radius: 5px;
-/*  margin-bottom: 20px;
-*/  margin:40px 0px;
-/*    transition: transform 1s;
-*/}
+  margin:40px 0px;
+}
+.card-sing {
+  height:481px !important;
+}
+.card-penge {
+  height: 652px!important;
+  margin-bottom: 0px!important;
+}
 .collapse-background {
   background-color: pink;
 }
@@ -96,12 +100,10 @@ margin:40px 0px;
  background-color: white;
  margin-bottom: 25px;
  border-radius: 5px;
-/* padding-bottom: 40px;
-*/}
+}
 .cardwrapper:hover {
  transition: transform 1s;
 }
-
 
 .card-description {
   position: absolute;
