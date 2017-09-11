@@ -1,0 +1,601 @@
+commit 1c7bbe8ef2b8aeaa84502f4558b1d2dbe08d1255
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Aug 28 09:12:14 2017 +0200
+
+    fixed twitter feed height. It was missing px at the end of the height and had an extra space too
+
+commit 16d82c79161af782b915cc2c23e775ffa7f38724
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Aug 28 08:39:54 2017 +0200
+
+    cleaned out folder on not needed files
+
+commit 13fb48b606a06f8c0fa93569a783b6cdbb530a71
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Aug 21 16:20:38 2017 +0200
+
+    updated buttons
+
+commit a7185def55883514d4f1da7eb274c2dbc5b5507a
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Aug 21 13:35:16 2017 +0200
+
+    fixed nav bar
+
+commit 1bdde38509279385366e3e6ffbbced98dbb9cdfb
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Aug 17 18:49:12 2017 +0200
+
+    added wonder coders
+
+commit 9e933e1342e3631533386551ce279076fceb4aae
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Aug 17 14:18:03 2017 +0200
+
+    added wonder coders
+
+commit 1d4e51a30ca1743a4224333fbf225bad751b7245
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Aug 17 11:44:17 2017 +0200
+
+    button-main:focus none
+
+commit 5d6852736f9bd2d54a340fb50a3056e0759dd215
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Aug 14 17:28:04 2017 +0200
+
+    more text on the read more
+
+commit 2ae008fe313c1a8e3123f06f3a897833f0336c41
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Aug 14 14:53:53 2017 +0200
+
+    2 more show more buttons
+
+commit 27b1859cedb157cc8622c3f72b584cf320665e97
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Aug 14 12:35:27 2017 +0200
+
+    working and correct read more for mmt and incpub
+
+commit ce98c64f396adb15af0b551c3a1c62647c579c8e
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Aug 11 14:15:53 2017 +0200
+
+    working hide and show
+
+commit 90659679c7e3f59df457d4dad80f1c9011b626ed
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Aug 11 13:12:36 2017 +0200
+
+    more js work on hide show
+
+commit 80120caedce03a0837c2b146c3d87d45e5788565
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Aug 11 10:21:44 2017 +0200
+
+    adding hide show on second card. it's not working. will query leWagon people shoing the gitpages.
+
+commit 0cf5ed00720377853f6c68f510b64c44ec10dffc
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Aug 10 15:59:05 2017 +0200
+
+    all js working on page now. mmt show and hide  and twitter feed
+
+commit d1d0ab7b09d07ae418390ad37647d0b8829cf939
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Aug 10 15:37:08 2017 +0200
+
+    show/hide working on mmt, but now problem with twitter feed scripts
+
+commit c2db7621158531491581972b658e3c2fd0021ddc
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Aug 10 14:21:50 2017 +0200
+
+    sample ShowHide html is working on the most basic level
+
+commit f19d992fa733b1fab5c33dff355ff71d4f1ab600
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Aug 10 12:04:03 2017 +0200
+
+    still working on show more
+
+commit 579ca998ffb86703ae8a297501619d2e8f4aa8c7
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Aug 9 12:27:30 2017 +0200
+
+    new image mmtgroup2
+
+commit 9e9e9d1000bba6a6cc7f22f1e50a90876a48da88
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue Aug 8 16:14:29 2017 +0200
+
+    new group photo mmt hopefully won't cut marci off
+
+commit e1ed4f252135048a56d3dd0831666cb41b487eff
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Sun Aug 6 17:06:00 2017 +0200
+
+    fixed responsive view for mobil so it works better on horizontal in mobile
+
+commit 0fdc8f00bc3210dda7b38df416d2e9f49e3501d6
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Aug 4 12:27:40 2017 +0200
+
+    added rest of mmt images for read more
+
+commit 90e5dffea8506a3112344059e828eef63d8c7248
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Aug 4 11:16:10 2017 +0200
+
+    uncapitilized mmtreadmore in hopes it will now show up on gh pages site.
+
+commit 924840383f0482055a918d20a9e0003c1d3ed434
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Aug 4 11:07:03 2017 +0200
+
+    added images for read more on mmt
+
+commit 59ed77fcd43b47a104c7cdce26743a8b67321daa
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Aug 2 15:26:27 2017 +0200
+
+    read more working with bootstrap
+
+commit 8557b1d22356bdfe00e6564237ecd5f2b0b379af
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Aug 2 13:06:48 2017 +0200
+
+    still working on show more
+
+commit 12bcf2aca99d61a3834952847c1cf6b774fe56ea
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Aug 2 11:06:04 2017 +0200
+
+    backup before trying to use bootstrap collapse for a show more button.
+
+commit 4035d2a94ca8a83f202caab87a26c270fba601f1
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue Aug 1 11:27:08 2017 +0200
+
+    changed show more. still worki in progress
+
+commit b83486ea4ffd5f6bc2ee97f0f4969a700b48d95e
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue Aug 1 11:15:50 2017 +0200
+
+    new card design and new h tags for headlines on white background and added design/code/design&code at end of clients.
+
+commit fff89f4112de170b0554784053e97c843c616a87
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed May 31 10:38:29 2017 +0200
+
+    added transitional hover to 'previous projects´ section.
+
+commit e8e17914f1e6cd48731948290cb3a46e92b16c99
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue May 30 12:45:12 2017 +0200
+
+    changed trustpilot index
+
+commit 817869e43df14e286c51e86a31bae8d85b82c0f6
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed May 24 11:03:47 2017 +0200
+
+    moved js3o files
+
+commit 728f8be9c58dfca6fd2c17702274f218df2d1dad
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed May 24 10:59:21 2017 +0200
+
+    translated texts
+
+commit 08ef44121f03d5cdc1f0387b5a80b2d96a7cd22f
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed May 24 09:08:51 2017 +0200
+
+    translated
+
+commit 7b8cf02e01d04526e4814d4a8fdb46696cb5a291
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed May 24 09:08:08 2017 +0200
+
+    stuff
+
+commit fb4f543cd8dd7171261b79c2a59802b5b617d195
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed May 24 09:07:00 2017 +0200
+
+    stuff
+
+commit 06b0fb5bcda7911e3caf640bdde0dd13072722c3
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon May 22 15:20:42 2017 +0200
+
+    ds_storeWTF?
+
+commit 50759fe9527a72495d2d95d0f560473f2194a1cc
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon May 22 15:17:34 2017 +0200
+
+    js drum kit working
+
+commit 458175f325c9bd2da5cd44893619025b54bfa279
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Sun May 21 09:22:38 2017 +0200
+
+    reorganizing
+
+commit 043d698278d6113a36b2a147814e8b60806d406f
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Sun May 21 09:11:59 2017 +0200
+
+    js30 test
+
+commit 73609a044d3da3e0df3b994ce24489d17d0217ca
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Sun May 21 09:05:29 2017 +0200
+
+    js30 files
+
+commit 41565e3f26415573eede5ab9130b6d72be554abd
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Sun May 21 09:03:32 2017 +0200
+
+    dsstore
+
+commit 670836f6d63e4e4f1d30109fb7a279ed0a80537c
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Sun May 21 08:58:03 2017 +0200
+
+    translated site work
+
+commit ed1e315c69bdf787db5e3e3d6fa1d77eaa0304ec
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu May 11 11:42:47 2017 +0200
+
+    Took off pracitce button see more info
+
+commit 9c9094c1fbaafcc15299d179147724261777a703
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu May 11 11:18:51 2017 +0200
+
+    added twitter feed
+
+commit 7fbee1a643ecb102db82ff789954441366aa70ee
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue May 9 14:58:00 2017 +0200
+
+    button text white on banner button
+
+commit e0c99cc107afff1604c8557acbe66000d58522b3
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue May 9 13:30:56 2017 +0200
+
+    same as last
+
+commit 20a0700477d1701819fb3c4235114de8294ba8d5
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon May 8 15:46:04 2017 +0200
+
+    translated site typeography
+
+commit 7f5d0381bd480c3c025cf7c99be4f9fc07f0c8fe
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Apr 26 09:24:49 2017 +0200
+
+    addes scss to profile
+
+commit d5af8b663ce3b2b5ebc807a67c2d3cb1a4e7a15b
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Apr 21 15:35:34 2017 +0200
+
+    link changes
+
+commit 9ad74e7f6d1cd05967eb239f4862e1512beb743f
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Apr 21 11:39:17 2017 +0200
+
+    more css changes
+
+commit b6050676762c0c18d117bd7aca2802053b1a29d1
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Apr 21 09:57:40 2017 +0200
+
+    design...
+
+commit be01cf486cefb413ce30209ad6b3a3742e5d4396
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Apr 20 14:45:22 2017 +0200
+
+    lots of design changes
+
+commit 95cfff8d1567f8682ed7bcf4f784f5e3431243b5
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Apr 19 16:44:40 2017 +0200
+
+    more stylistic changes
+
+commit b5044e093f674a4e8f075de74565cb12245457f7
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Apr 19 16:01:38 2017 +0200
+
+    navbar styling and .container changed to .my-container on some divs in css
+
+commit 6d39b121dec9ce1c4ffcd7c0c91af5f5649a5fc2
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Apr 19 10:20:03 2017 +0200
+
+    removed display:flex on testimonials which fixed viewing tutorial section in chrome dev tools
+
+commit 00cd78bde86d936ffce66bc6abcc15f9481e6d48
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Apr 19 10:06:48 2017 +0200
+
+    design trys
+
+commit 46e983e2d69e40097be5fd6ffbe213953c87f2f8
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue Mar 14 12:05:29 2017 +0100
+
+    changed nav hover color
+
+commit 4234703a9b397daf0c38a134aaa0e61396ec2309
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue Mar 14 11:54:07 2017 +0100
+
+    not much
+
+commit 5885c5dcb699b7d38fcf87b54ecca7fceec2ac06
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Mar 8 13:42:25 2017 +0100
+
+    fixed navbar hovers
+
+commit 984d0f248f495453e7592814e300cdb1361d014a
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Mar 8 12:23:32 2017 +0100
+
+    tried jquery scroll
+
+commit df825b268ce1994c9be508fa27e50f99c255269f
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Sun Mar 5 16:27:45 2017 +0100
+
+    started adding jquery
+
+commit 4a66f77e3797db6f8fbc7007b7165f6e7e683453
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue Feb 28 20:41:10 2017 +0100
+
+    animated skills
+
+commit db43372b9321c5ccb1ba80b2dfbd7af98d93a80b
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue Feb 28 19:13:25 2017 +0100
+
+    trying for annimation
+
+commit 5e5050277c5211a3bdf647e557157d2afdc74904
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Feb 27 15:39:08 2017 +0100
+
+    starting to make skills animate on scrole
+
+commit 63d41f5083d4dd670ed20db2702a304e30af72ab
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Feb 23 16:06:00 2017 +0100
+
+    small fixes
+
+commit d12fdfd2d497e81eb77474921b593f1c5f12d0f9
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Feb 23 15:59:45 2017 +0100
+
+    small fixes
+
+commit 0b42a18accd66c0d0d3b8979d81801c0b2aad9d5
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Feb 23 15:04:30 2017 +0100
+
+    cleaned up styling, updated nav bar design, and added wordpress site.
+
+commit 4a57e8d5f3842c6fa348744629daf2bbf194c1df
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Feb 23 11:53:56 2017 +0100
+
+    link color fixed
+
+commit d46296537315ef438d2e49da24e3ee4ec635f86a
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Feb 23 11:49:27 2017 +0100
+
+    css fixes, and added skills
+
+commit 6a5e6e1b55732815cb05987e72e780211857a849
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Feb 22 12:16:06 2017 +0100
+
+    added work
+
+commit ab1d88f7aa25f58319023b9d8b7709aa181e16ed
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Dec 9 10:04:18 2016 +0100
+
+    New Recommendation
+
+commit c6dcf07a08c4244ec8365b8698ec2c0dc3d2c890
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Nov 28 11:00:59 2016 +0100
+
+    small stuff
+
+commit d19a814f6352e57c89c81501bbf71177db553970
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Nov 16 11:36:42 2016 +0100
+
+    again image fix
+
+commit 296dddad65e20d4536a8a5b54d5d9ff6a246e845
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Nov 16 11:31:27 2016 +0100
+
+    tried to fix image again for social sharing
+
+commit 074594a0d46a7a56563ec45efc1dab0bf25f713f
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue Nov 15 13:56:51 2016 +0100
+
+    tyring to fix linked in link
+
+commit fcb2014e6d5d2c777d9118ec11f6652e211ec40c
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Nov 2 09:15:47 2016 +0100
+
+    text changes
+
+commit 23048a8ed045732fd305ef8f5f4ccb4d79a17f26
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue Nov 1 10:58:53 2016 +0100
+
+    added period
+
+commit 20329cc54b45fd2a1fd95cea72d3d93871c2ef5a
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue Nov 1 10:21:04 2016 +0100
+
+    fixed facebook and twitter image links
+
+commit ec2b618153d71331689dbe6bf60f500506830602
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue Nov 1 10:07:11 2016 +0100
+
+    more fun
+
+commit 976b2b8e551eb40651518fa6f150d3e0c290f3cf
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue Nov 1 09:55:53 2016 +0100
+
+    more fun
+
+commit 71844e066d0a266456acad17d7d02ea9cffc465c
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Oct 28 15:40:43 2016 +0200
+
+    uploaded through Dreamweaver 2 sings ago.
+
+commit cd558a97d253a39c473bbc9420adc30e3034fe56
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Oct 28 15:37:29 2016 +0200
+
+    fixed mmt link
+
+commit 540c65f556966998297d3e5ee5dd1bc8b3d2511a
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Oct 28 15:18:49 2016 +0200
+
+    added social media in head
+
+commit 56761bd50e42ff567fe693e0680fe918e3b57a23
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Fri Oct 28 14:16:35 2016 +0200
+
+    spelling fixes
+
+commit 4cb09ce50be8593043753bd20daad4e7540b993c
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Oct 26 13:50:25 2016 +0200
+
+    revised about me text
+
+commit 847eb11579213611682be532987047a68092e1f5
+Merge: dfc2463 d634607
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Oct 26 13:21:55 2016 +0200
+
+    added read me doc.
+    Merge branch 'gh-pages' of https://github.com/marcidenmark/marci-papineau into gh-pages
+
+commit dfc2463d6e5c2647f674d25d1b43c111066c60d5
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Oct 26 09:51:03 2016 +0200
+
+    added %'s and more links
+
+commit d6346073608a81c965e12b9ebcc766c05c9c6c5f
+Author: marcidenmark <marcidenmark@me.com>
+Date:   Mon Oct 24 13:32:49 2016 +0200
+
+    Create README.md
+
+commit e2f9347ac60eae33aa9c8fdf342e87d8c1b6c1a5
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Oct 24 13:29:37 2016 +0200
+
+    more
+
+commit 837bc5bdc56042856cc91e487a47462a3de4177d
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Oct 24 13:01:58 2016 +0200
+
+    more
+
+commit 2a77017a171de7b0f7b319c5be87e49fce9816b0
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Oct 24 11:08:10 2016 +0200
+
+    stuff
+
+commit dbce288e69e6e2d27799ef66fe0d4a7660bc1555
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Oct 12 20:03:38 2016 +0200
+
+    started adding links
+
+commit 764b0183cb3627f1a7261f16895c79f81c8cef35
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Oct 10 13:46:17 2016 +0200
+
+    more style sheet work
+
+commit f78a8f26b111b27bd3f47f1105763608b82a2f92
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Oct 10 12:40:46 2016 +0200
+
+    media queries added
+
+commit 7bccc284cb7f40f2e7d244ed8e35a5457790a493
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Oct 5 15:25:50 2016 +0200
+
+    about me and more css
+
+commit 90ba25e118dbce803bc11cee3acd1bb2f576c37d
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Wed Oct 5 10:20:56 2016 +0200
+
+    fixing css
+
+commit 1dc4d49bad5e8f9683f720702246d2b5b7d9511e
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Thu Sep 29 09:37:11 2016 +0200
+
+    new meta tags
+
+commit f2b4e3139711e62afa87d5e67eb087ba9f3a7851
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Tue Sep 27 13:20:28 2016 +0200
+
+    small change
+
+commit 60f92a6ff42cd50500be84101c290315e58f668d
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Sep 26 20:13:22 2016 +0200
+
+    second commit
+
+commit 83e37cf2b484bf24f6b9c361f5f64c289e36bbb3
+Author: marci papineau <marcidenmark@hotmail.com>
+Date:   Mon Sep 26 20:12:05 2016 +0200
+
+    first commit
