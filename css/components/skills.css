@@ -19,13 +19,14 @@
 .skillBar {
   margin-bottom:26px;
   margin-bottom: 1.66em;
-  h4 {
+ }
+  .skillBar h4 {
     font-size:21px;
     font-size: 1.33em;
     margin-bottom:7px;
     margin-bottom: .33em;
   }
-}
+
 .skillBarContainer {
   width: 100%;
   max-width: 350px;

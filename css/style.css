@@ -25,7 +25,19 @@ h5 {
  font-size: 15px;
 }
 p {
-    font-family: 'Roboto', sans-serif;
+
+  font-family: 'Crete Round', serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  padding-left: 10px
+  padding-right: 10px;
+  line-height: 33px;
+  color: black;
+    /*font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 33px;*//*  font-style: italic;
+
 /*    letter-spacing: 1.2px;
 */}
 
