@@ -1,8 +1,8 @@
 .wondercoders {
-  width: 600px;
-    margin:0 auto;
+  width: 550px;
+  margin:0 auto;
 
   border-radius:5px;
   background-color: white;
-  background:cover;
+  background-size: cover !important;
 }
