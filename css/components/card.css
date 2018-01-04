@@ -117,15 +117,14 @@ margin:40px 0px;
   margin-bottom: 10px
 }
 
-.project-description p {
+/*.project-description p {
   font-size: 16px;
   color: black;
   margin-top: 0px;
   margin-bottom: -3px;
-/*  letter-spacing: 1.5px;
-*/  line-height: 33px;
+  line-height: 33px;
 }
-
+*/
 
 .info-box {
   border:pink solid;
