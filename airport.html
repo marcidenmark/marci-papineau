@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Airport App</title>
+	 <link rel="stylesheet" href="css/styles-air.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+  	</head>
+</head>
+<main>
+  <h1 class="mdc-typography--display1">Copenhagen Airport App</h1>
+
+<input type="search" id="address-input" placeholder="Where r u going" />
+
+  <form action="#" id="greeting-form">
+    <div>
+      <div class="mdc-form-field">
+        <div class="mdc-text-field" data-mdc-auto-init="MDCTextField">
+          <input id="departureCity" type="text" class="mdc-text-field__input">
+          <label for="departureCity" class="mdc-text-field__label">
+            Departure City
+          </label>
+          <div class="mdc-text-field__bottom-line"></div>
+        </div>
+      </div>
+    </div>
+
+    <button type="submit"
+            class="mdc-button
+                   mdc-button--raised
+                   mdc-ripple-surface"
+            data-mdc-auto-init="MDCRipple">
+      Search
+    </button>
+  </form>
+
+  <p class="mdc-typography--headline" id="greeting">
+  	Welcome to the Copenhagen Airport App. Above you can search for arivals landing in Copenhagen.
+  </p> <br>
+  <p class="mdc-typography--headline" id="greeting">
+  	Below you can searh for flights to other destinations. Enjoy your travels.
+  </p>
+  <form action="#" id="greeting-form">
+    <div>
+      <div class="mdc-form-field">
+        <div class="mdc-text-field" data-mdc-auto-init="MDCTextField">
+          <input id="destination" type="text" class="mdc-text-field__input">
+          <label for="destination" class="mdc-text-field__label">
+            Destination
+          </label>
+          <div class="mdc-text-field__bottom-line"></div>
+        </div>
+      </div>
+    </div>
+
+    <button type="submit"
+            class="mdc-button
+                   mdc-button--raised
+                   mdc-ripple-surface"
+            data-mdc-auto-init="MDCRipple">
+      Search
+    </button>
+  </form>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/places.js@1.4.18"></script>
+
+
+<script>
+const endpoint = 'https://gist.githubusercontent.com/marcidenmark/b7d5160b19cf97b6d08c64dd68c5cc4c/raw/204fb9fd3f8f03688f9a6313ca53b7ce9956663a/flights.json';
+	const cities =
+	fetch(endpoint)
+		.then(rawdata => rawdata.json())
+		.then((data) => {
+ 			console.log(data); //this is giving the array of objects
+ 			console.log(departureCity);//giving in input id html
+
+  	});
+	console.log(cities);
+	departureCity.addEventListener("click", (event) => {
+	console.log(event);
+	console.log(event.target);
+  });
+ 	let placesAutocomplete = places({
+    	container: document.querySelector('#address-input')
+  });
+	console.log(placesAutocomplete);
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/places.js@1.4.18"></script>
+
+
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<script>window.mdc.autoInit();</script>
+
+</html>
