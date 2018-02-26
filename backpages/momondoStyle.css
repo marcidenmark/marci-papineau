@@ -1,0 +1,223 @@
+body {
+    background-color: RGBA(20, 1, 40, 1.00);
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+}
+.grid-wrapper {
+	border-bottom: 2px solid black;
+	color: pink;
+
+}
+.card {
+	max-width: 60%;
+	min-width: 729px;
+    display: grid;
+    border-radius: 3px;
+    background-color: #f6f9fa;
+    overflow: hidden;
+    cursor: default;
+    opacity: 1;
+}
+
+.company {
+  	font-size: 9px;
+    font-weight: 600;
+    line-height: 12px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.company-2 {
+  	font-size: 9px;
+    font-weight: 600;
+    line-height: 12px;
+    padding-left: 10px;
+    padding-top: 0px;
+}
+.logo-border {
+	width: 68px;
+	border-right: 2px dotted RGBA(219, 221, 221, 1.00);
+	margin-top: 12px;
+	margin-right: 14px;
+	margin-left: 10px;
+}
+
+.grid {
+  	display: grid;
+/*	grid-template-columns: (1fr, 4fr, 3fr, 4fr, 4fr);
+*/  	grid-row-gap: 7px;
+  	grid-template-rows: 39% 1% 39% 1% 19%;
+}
+
+ .grid div:nth-child(1) {
+   grid-column: 1 / 6;
+   grid-column-end: span 1;
+}
+
+ .grid div:nth-child(2) {
+ 	grid-column: 2 / 6;
+   grid-column-end: span 1;
+ }
+
+ .grid div:nth-child(3) {
+   grid-column: 3 / 6;
+   grid-column-end: span 1;
+ }
+ .grid div:nth-child(4) {
+   grid-column: 4/ 6;
+   grid-column-end: span 1;
+ }
+.grid div:nth-child(5) {
+  grid-column:5/5;
+  grid-column-end: span 2;
+  background-color: RGBA(232, 240, 243, 1.00);
+  margin-top: -19px;
+  grid-row: 1/6;
+}
+
+/*6 is for the line in between flights*/
+.grid div:nth-child(6) {
+  grid-column:1/5;
+  grid-column-end: span 4;
+  margin-top: -19px;
+  grid-row: 2;
+}
+
+/*7 is for the second flight company*/
+.grid div:nth-child(7){
+grid-column: 1/5;
+   grid-column-end: span 1;
+}
+
+.grid div:nth-child(8){
+grid-column: 1/5;
+   grid-column-end: span 1;
+}
+/*new try*/
+/*.grid div:nth-child(9){
+grid-column: 1/5;
+   grid-column-end: span 1;
+}*/
+/*.grid div:nth-child(10){
+grid-column: 1/5;
+   grid-column-end: span 1;
+}*/
+
+.border-bottom {
+	border-bottom: 1px solid RGBA(219, 221, 221, 1.00);
+
+}
+.city-out{
+	font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+    text-transform: uppercase;
+	margin-top: 1px;
+    padding: 15px 15px 15px 0px;
+}
+.city-land{
+	font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+	margin-top: 1px;
+    padding: 15px 15px 15px 10px;
+}
+.city-small {
+	font-size: 11px;
+	font-weight: 400;
+	text-transform: capitalize;
+
+}
+.bold {
+	font-weight:700;
+}
+.travel-time {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: -2px;
+    padding: 7px 14px 0px 14px;
+	border-right: 2px dotted RGBA(219, 221, 221, 1.00);
+	border-left: 2px dotted RGBA(219, 221, 221, 1.00);
+}
+.travel-time-line {
+	border-bottom: 3px solid RGBA(23, 167, 196, 1.00);
+	padding: 3px 0px 3px 0px;
+}
+.travel-time-line-grey {
+	border-bottom: 3px solid RGBA(131, 126, 142, 1.00);
+	padding: 3px 0px 3px 0px;
+}
+.non-stop {
+	font-size: 11px;
+	font-weight:600;
+	color:RGBA(23, 167, 196, 1.00);
+	text-transform: uppercase;
+}
+.economy {
+	font-size:9px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #94a2a8;
+    font-weight: 400;
+
+}
+.heart {
+	font-size: 32px;
+	text-align: right;
+	margin-top: -24px;
+    margin-right: 10px;
+}
+.price {
+	font-size: 27px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.5px;
+    margin-right: 10px;
+    color: black;
+	text-align: right;
+	text-transform: uppercase;
+	margin-top: 141px;
+}
+.price-unit {
+	font-size: 18px;
+    font-weight: 600;
+}
+.flight-select-button /*"go to site"*/{
+	background-color: green !important;
+	text-align: right;
+}
+.flight-select-button-text{
+	color: white;
+    font-size: 16px;
+    text-align: center;
+    background-color: #39bd55;
+    margin-right: 10px;
+    padding: 4px;
+    border-radius: 3px;
+    margin-bottom:10px;
+}
+
+.border-top {
+	border-top: 1px solid RGBA(219, 221, 221, 1.00);
+
+}
+.details-button{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+        margin-top: 20px;
+    color: #7d7d7d;
+    border: 1px solid #cedce1;
+    padding: 3px 9px 3px 6px;
+    border-radius: 30px;
+    background: #e8f0f3;
+    width: 61px;
+}
+
+
+
