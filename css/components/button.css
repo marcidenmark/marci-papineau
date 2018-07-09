@@ -26,7 +26,7 @@
     background-color: rgba(169,169,169,0.20);
     border-color: white!important;
     box-shadow: 1px 1px 5px 0px rgba(169,169,169,0.50);
-    color: black;
+    color: black !important;
     border: none;
     font-size: 16px;
     font-variant: small-caps;
@@ -40,14 +40,16 @@
     transition: all .2s ease;
 
 }
-
+.button-more h5 {
+	text-align: center;
+}
 
 .button-more a{
- color:white !important;
+ color:black !important;
 }
 .button-more:visited {
   border:none !important;
-  color: white;
+  color: black;
 }
 
 .button-more:hover {
@@ -58,7 +60,7 @@
 }
 
 .button-more a:focus {
-  border-color: white !important;
+  border-color: black !important;
 }
 
 
