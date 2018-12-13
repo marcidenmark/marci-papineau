@@ -9,6 +9,9 @@
 @import url("components/readmore.css");
 @import url("components/wonderCoders.css");
 
+html {
+	overflow-x: hidden;
+}
 
 h1, h2, h3, h4, h5 {
   font-family: 'Roboto Condensed', sans-serif;
@@ -147,6 +150,7 @@ a:active {
   margin-left: 10px;
   margin-right: 10px;
 }*/
+
 
 .twitter-container {
  padding: 0px 75px;
