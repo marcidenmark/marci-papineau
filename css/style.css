@@ -9,7 +9,7 @@
 @import url("components/readmore.css");
 @import url("components/wonderCoders.css");
 
-html {
+html, body {
 	overflow-x: hidden;
 }
 
