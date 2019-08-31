@@ -1,14 +1,15 @@
 .banner {
   color: white;
   text-align: left;
-  height: 85vh;
+  height: 100vh;
   background-size: cover !important;
 }
 
 .banner-content h1 {
-    color: white;
+
   margin-top: 0px;
   font-size: 60px;
+  margin:auto;
   padding-top: 37%;
   padding-left: 17px;
 
@@ -16,5 +17,8 @@
 .banner-content p {
   font-size: 28px;
   padding-left: 27px;
+}
+.div-50px {
+	height: 160px;
 }
 

@@ -3,11 +3,11 @@
 */  /*justify-content: space-around;*/
   background: black;
   color: #f44336;
-
+	margin-bottom: 0px;
   line-height: 20px;
   padding-bottom: 20px;
   align-content: space-around;
-  position: absolute;
+  /*position: absolute;*/
     top: 0;
     left: 0;
     right: 0;

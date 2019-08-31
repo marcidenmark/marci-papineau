@@ -1,4 +1,6 @@
 @import url("components/banner.css");
+@import url("components/typography.css");
+
 @import url("components/footer.css");
 @import url("components/card.css");
 @import url("components/navbar.css");
@@ -13,45 +15,10 @@
 	overflow-x: hidden;
 }*/
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 700;
-}
-h1 {
-  font-size: 43px;
-  color: #282A2B;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
- font-size: 15px;
-}
-p {
-  font-family: 'Crete Round', serif;
-  font-size: 16px;
-  letter-spacing: 1px;
-  line-height: 33px;
-  color: black;
-}
-
-p.italic {
- font-style: italic;
-}
-/*used in banner*/
-h3 {
-    font-size: 28px;
-    padding-left: 27px;
-    font-family: 'Crete Round', serif;
-    letter-spacing: 1.2px;
-}
 
 .highlight {
  color:#f44336;
  background: black;
-/* margin-right: 50px;
- margin-left: 50px;*/
-
 }
 
 .design {
@@ -140,16 +107,6 @@ a:active {
  /* margin-left: 10px;
   margin-right:10px;*/
 }
-/*.container {
-  margin: 0 auto;
-}*/
-
-/*.my-container {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-}*/
 
 
 .twitter-container {

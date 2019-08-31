@@ -11,7 +11,9 @@
   font-family: 'Crete Round', serif;
   letter-spacing: 2px;
 }
-
+h3 {
+	font-size:65px !important;
+}
 .button-main a{
  color:white !important;
 }
@@ -62,10 +64,6 @@
 .button-more a:focus {
   border-color: black !important;
 }
-
-
-
-
 
 
 .button-grey {
